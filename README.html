@@ -417,23 +417,43 @@ image, which was not as practical as working with fonts and text.<br />
 <div id="problems-faced" class="section level2">
 <h2>Problems faced</h2>
 <ul>
-<li>(8 September 2024) I created my project repository on 7 September
+<li><p>(8 September 2024) I created my project repository on 7 September
 2024. I worked on the <code>index.html</code>, <code>style.css</code>
 and did a few commits locally, but when I attempted to push all these
-changes to GitHub, I realised that there was an issue with the file
-locations. I kept receiving error messages. To my understanding, this
-happened because when I was cloning the GitHub repository initially, I
-did it wrong. I initially created a folder in the same name as the
-repository and then attempted a clone, which created a directory within
-the directory, both with the same name. Seeing this, I moved files
-around so that I do not have folder within a folder locally, but all
-files are located under the main folder. I think this change in file
-structures created the issue because I saw that 1 brach was created in
-the GitHub repository. To ensure that I do not have similar issues, I
-created a trial repository from scratch, did a few changes and pushes.
-After seeing that it works, I deleted my initial project repository from
-my workspace and then re-started everything again. Luckily, I have a
-copy of my files locally.</li>
+changes to GitHub, I realized that there was an issue with the file
+locations. I kept receiving error messages and failed to push my changes
+to GitHub. To my understanding, this happened because when I was cloning
+the GitHub repository initially, I did it wrong. I initially created a
+folder in the same name as the repository and then attempted a clone,
+which created a directory within the directory, both with the same name.
+Seeing this, I moved files around so that I do not have folder within a
+folder locally, but all files are located under the main folder. I think
+this change in file structures created the issue. To ensure that I do
+not have similar issues, I created a trial repository from scratch, did
+a few changes and pushes. After seeing that it works, I deleted my
+initial project repository from my workspace and then re-started
+everything again.</p></li>
+<li><p>In the new repository, I managed to push changes at start but
+then started to have problems when committing. The commits did not go
+through. In some cases, I could see the commit but the
+<code>index.html</code> file appeared as “empty” while in some other
+cases, the commit did not show at all! I created one new repository
+after another, thinking restarting from scratch would help. It did not.
+I think various things were going wrong at the same time, which led me
+to fail over and over. I think one of these problems is me, not fully
+understanding the terminal connection to GitHub well enough. I was
+wrongly assuming that the terminal connection to alternative
+repositories change automatiocally when I change the local folder, where
+I cloned these repositories.</p></li>
+<li><p>Another issue is that, the changes I make on the file locally do
+not appear in <code>git status</code> as changes unless I save them. I
+am working with VS Code. It would save my changes automatically, and the
+setting is still set for an automatic save. But for some reason, the
+automatic save is not working. Because I did not realise this, I could
+not see any changes to commit, even when I made changes in the files.
+This resulted with me not being able to update my repository. I now
+manually save the files (rather than relying on automatic save), which
+allows git to see the changes and commit.</p></li>
 </ul>
 </div>
 <div id="steps-that-were-followed-during-the-creation-of-this-website" class="section level2">
