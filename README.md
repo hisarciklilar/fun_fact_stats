@@ -1,6 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+---
+title: "Fun Fact Stats"
+author: Mehtap Hisarciklilar 
+date: September, 2024
+---
+<style>
+green { color: green }
+red { color: red }
+</style>
 
-Welcome USER_NAME,
+<red> Information sources to the organised and presented in the final version </red>
+
+<green> Notes to myself - to be deleted in final submission</yellow>
+
+![](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+# Fun Fact Stats Page
+
+## Fonts
+
+Text-based fonts used in this project are downloaded from [Google Fonts](http://fonts.google.com). The social media symbols used are from [Font Awesome](https://fontawesome.com/). 
+
+The following fonts are used:  
+
+- "Lexend" for the body and footer text. "Lexend" is chosen for the main text because a small scale study has shown that people can read and understand more easily when this font style is used. I have been using this font in documents that I produce for my students (in my professional role). 
+
+- "Happy Monkey" for headings level 2 and higher. I found this font after a search on keywords "smile", "fun", and "happy" on Google Fonts. Since the page is aiming to the "fun", a font style that would give that effect was preferred. Like "Lexend", "Happy Monkey" is also easy to read, and it is  "fun". It also matches the font style I use for the header ("Rock Salt") 
+
+- "Rock Salt" for heading level 1 (which is the main header of the wage). Choosing the font style for header was the most difficult. Since it serves as the logo to the page, it takes an important role. <green> I wanted .... it to read easily...  </green>
+
+A few alternative options were consired for the header. 
+
+### Fonts for the Header
+
+<green> I have tried alternative logos and fonts for the header. Because the page targets students and aims to help them get familiar with Statistics *help them like statistics), I wanted the header to be fun. (Check  the notes you wrote on notebook) </green>
+
+Below, I provide screenshots of some alternatives considered. 
+
+- Google Fonts 
+
+![](./media_readme/FFS_Unkempt.png)
+
+![](./media_readme/FFS_GreatVibes.png)
+
+![](./media_readme/FFS_GloriaHallelujah.png)
+
+![](./media_readme/FFS_RockSalt.png)
+
+
+
+
+![](./media_readme/FFS_Smile.png)
+
+<green>
+- The webpage that I used
+The webpage did in fact produce something very close to what I wanted. Also, I managed to align the fonts so that they resemble (to follow) a normal distribution. But I dis not use this in the end, because the text was created as a link to an image, which was not as practical as working with fonts and text.  
+</green>
+
+## Problems faced
+
+- (8 September 2024) I created my project repository on 7 September 2024. I worked on the `index.html`, `style.css` and  did a few commits locally, but when I attempted to push all these changes to GitHub, I realised that there was an issue with the file locations. I kept receiving error messages. To my understanding, this happened because when I was cloning the GitHub repository initially, I did it wrong.  I initially created a folder in the same name as the repository and then attempted a clone, which created a directory within the directory, both with the same name. Seeing this, I moved files around so that I do not have folder within a folder locally, but all files are located under the main folder. I think this  change in file structures created the issue because I saw that 1 brach was created in the GitHub repository. To ensure that I do not  have similar issues, I created a trial repository from scratch, did a few changes and pushes. After seeing that it works, I deleted my initial project repository from my workspace and then re-started everything again. Luckily, I have a copy of my files locally. 
+
+## Steps that were followed during the creation of this website
+
+#### 7 September 2024
+- Used the CI template to create a new repository: fun-fact-stats
+- Created the assets folder and then css and images folders in workspace
+- Created the boilerplate using the VS Code shortcut
+- Added meta tags for search engines 
+- Linked the document to stylesheet
+- Created the sections of the body: header, main and footer
+
+## Things to work on before submission
+- Add the favicon. 
+
+## Things to get back to, time allowing
+
+
+
+## Credits
+
+- The folowing fonts are obtained from [Google Fonts](https://fonts.google.com). 
+- The icons used for Social media links <green> and the arrow key on page xx are </green> obtianed from [Font Awesome](https://fontawesome.com/).
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
