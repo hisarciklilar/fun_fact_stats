@@ -124,19 +124,13 @@ h1 {
 #menu > li {
     margin-bottom: 0.5em;
   }
-
+  
 .active {
     border-bottom: 1px solid seagreen;
     box-shadow: 2px 2px 2px gray;
     /* border: 2px solid seagreen;
     border-radius: 5px; */
   }
-  
-  /* GET BACK: not sure about applying this style yet */
-  /* #align-right {
-    text-align: right;
-    padding-right: 1em;
-  } */
   
 /* ================= */
 /* Navigation toggle */
@@ -154,3 +148,84 @@ h1 {
     font-size: 2rem;
   }
  
+/* ================================================== */
+/* Media query: tablets and larger (768px and higher) */
+/* ================================================== */
+
+@media screen and (min-width: 768px) {
+
+  h1{
+    position: relative;
+    font-size: 160%;
+  }
+  
+  /* Header */
+  nav{
+    display: block;
+    position: absolute;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    width: 100%;
+    /* background-color: #3a3a3a;
+    color: white; */
+  }
+
+  #menu {
+    display: flex;
+    padding-top: 20px;
+  }
+
+  #menu > li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 95%;
+  }
+
+  /* Below is copied from CI love-running walkthrough example */
+  .nav-toggle-label {
+    display: none;
+  }
+
+  /* Main content */
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 130px;
+}
+}
+
+/* ======================================= */
+/* Media query: laptops (992px and higher) */
+/* ======================================= */
+
+@media screen and (min-width: 992px) {
+
+  h1{
+    position: relative;
+    font-size: 200%;
+  }
+  
+  #menu a:hover {
+  /* border-bottom: 1px solid #3a3a3a; */
+  /* Option 1 */
+  /* color: white;
+  background-color: seagreen; */
+  /* Option 2 */
+  /* border: 3px solid coral; */
+  border: 2px solid #E4003A;
+  border-radius: 5px;
+  padding: 0.4rem;
+  }
+
+  #menu > li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 100%;
+  }
+
+  main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 150px;
+}
+
+  }
