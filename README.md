@@ -86,7 +86,7 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 ## Credits
 
-- The folowing fonts are obtained from [Google Fonts](https://fonts.google.com). 
+- The following fonts are obtained from [Google Fonts](https://fonts.google.com). 
 - The icons used for Social media links <green> and the arrow key on page xx are </green> obtianed from [Font Awesome](https://fontawesome.com/).
 
 
