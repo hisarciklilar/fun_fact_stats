@@ -97,6 +97,13 @@ h1 {
     font-size: 140%;
 }
 
+h2 {
+  text-align: center;
+  font-family: "Happy Monkey", sans-serif;
+  letter-spacing: 2px;
+  font-size: 110%;
+  padding-top: 10px;
+}
   /* In mobile phones, the navbar style will be a dropdown list */
   /* Copied the following code from CI love-running walkthrough example with some modifications */
   nav {
@@ -147,7 +154,60 @@ h1 {
 .nav-toggle-label {
     font-size: 2rem;
   }
- 
+  /* ============ */
+  /* Main content */
+  /* ============ */
+
+main {
+  background-color: white;
+  /* Make main element take up any surplus space to push footer down */
+  /* Below is copied from CI's love-running walkthrough project */
+  flex: 1 0 auto;
+  margin-top: 100px;
+}
+
+/* Footer */
+footer {
+background-color: gold;
+color: #3a3a3a;
+}
+
+/* Below code is copied from CI's love-running walk through example */
+#social-networks {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 30px; */
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 200%;
+  padding: 5%;
+  color: #3a3a3a;
+  /* margin-left: 30px; */
+}
+
+footer > p {
+  padding: 20px 0 10px 60px;
+  text-align: left;
+  }
+
+.align-right {
+  text-align: right;
+  padding-right: 1em;
+  }
+  
+  footer div {
+    font-size: smaller;
+    /* I thought pink goes well with yellow so I checked out difference shades of pink on 
+    https://html-color.codes/pink page */
+    color: rgb(228,0,124);
+    /* color: seagreen; */
+    padding:20px
+  }
+  
 /* ================================================== */
 /* Media query: tablets and larger (768px and higher) */
 /* ================================================== */
@@ -192,6 +252,23 @@ h1 {
     /* Push main content down to accommodate larger header */
     margin-top: 130px;
 }
+
+#social-networks {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 200%;
+  padding: 5%;
+  color: #3a3a3a;
+  margin-left: 30px;
+}
+
 }
 
 /* ======================================= */
@@ -212,7 +289,7 @@ h1 {
   background-color: seagreen; */
   /* Option 2 */
   /* border: 3px solid coral; */
-  border: 2px solid #E4003A;
+  border: 2px solid rgb(228,0,124);
   border-radius: 5px;
   padding: 0.4rem;
   }

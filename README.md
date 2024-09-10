@@ -81,7 +81,7 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Add the favicon. 
 
 ## Things to get back to, time allowing
-
+- "Feeling overwhelmed" navigation item is not quite the same as the others. I may move it somewhere else or align it to the right end of the page. 
 
 
 ## Credits
