@@ -166,6 +166,40 @@ main {
   margin-top: 100px;
 }
 
+#stats-anxious-monster {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#anxious-monster {
+  width: 100vw;
+  height: 100vw;
+  background: url(../images/anxious_monster.jpg) no-repeat center center / cover;
+  position: relative;
+  margin: 20px;
+  max-width:200px;
+  max-height: 200px;  
+}
+
+/* #anxious-monster-greet {
+  background-color: #3a3a3a;
+  width: 45%;
+  height: 45%;
+} */
+
+#happy-monster {
+  width: 100vw;
+  height: 100vw;
+  background: url(../images/happy_monster.jpg) no-repeat center center / cover;
+  position: relative;
+  margin: 20px;
+  max-width:200px;
+  max-height: 200px;  
+}
+
+
 /* Footer */
 footer {
 background-color: gold;
