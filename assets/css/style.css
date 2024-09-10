@@ -237,11 +237,16 @@ footer > p {
     font-size: smaller;
     /* I thought pink goes well with yellow so I checked out difference shades of pink on 
     https://html-color.codes/pink page */
-    color: rgb(228,0,124);
+    color: seagreen;
     /* color: seagreen; */
-    padding:20px
+    padding-top: 20px;
   }
   
+  .bottom-line {
+    color: seagreen;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
 /* ================================================== */
 /* Media query: tablets and larger (768px and higher) */
 /* ================================================== */
@@ -287,22 +292,38 @@ footer > p {
     margin-top: 130px;
 }
 
-#social-networks {
-  text-align: center;
-  padding: 10px 0;
+  #social-networks {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    list-style-type: none;
+  }
+
+  #social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: #3a3a3a;
+    margin-left: 30px;
+  }
+
+#project-detail-ci {
   display: flex;
-  justify-content: left;
-  margin-left: 30px;
-  list-style-type: none;
+  flex-direction: row;
+  justify-content: right;
+  flex-grow: 0;
+  gap: 10px;
 }
 
-#social-networks i {
-  font-size: 200%;
-  padding: 5%;
-  color: #3a3a3a;
-  margin-left: 30px;
+#project-detail-mh {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-grow: 0;
+  gap: 30px;
 }
-
+ 
 }
 
 /* ======================================= */
@@ -337,6 +358,13 @@ footer > p {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 150px;
+  }
+  
+footer div {
+  /* I thought pink goes well with yellow so I checked out difference shades of pink on 
+  https://html-color.codes/pink page */
+  color:  seagreen;
+  /* color: seagreen; */
+ margin-right: 60px;
 }
-
   }
