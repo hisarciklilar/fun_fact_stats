@@ -432,10 +432,6 @@ footer > p {
     margin-top: 150px;
   }
   
-  #anxious-monster-image:hover{
-    background: url(../images/happy_monster.jpg) no-repeat center center / cover;
-  }
-  
 footer div {
   /* I thought pink goes well with yellow so I checked out difference shades of pink on 
   https://html-color.codes/pink page */
