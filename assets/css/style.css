@@ -183,6 +183,7 @@ main {
 }
 
 /* The idea of using the image in background is from love-running walk through example */
+/* The code there also helped me to write below */
 #anxious-monster-image {
   width: 50vw;
   height: 50vw;
@@ -332,10 +333,6 @@ footer > p {
   margin-right: 20%;
 }
 
-#anxious-monster-image:hover{
-  background: url(../images/happy_monster.jpg) no-repeat center center / cover;
-}
-
 #anxious-monster-greet {
   background-color: gray;
   /* width: 50vw; */
@@ -433,6 +430,10 @@ footer > p {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 150px;
+  }
+  
+  #anxious-monster-image:hover{
+    background: url(../images/happy_monster.jpg) no-repeat center center / cover;
   }
   
 footer div {
