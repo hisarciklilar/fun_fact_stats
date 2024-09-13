@@ -84,8 +84,22 @@ Below, I provide screenshots of some alternatives considered.
 The webpage did in fact produce something very close to what I wanted. Also, I managed to align the fonts so that they resemble (to follow) a normal distribution. But I dis not use this in the end, because the text was created as a link to an image, which was not as practical as working with fonts and text.  
 </gr>
 
-#### Body 
+#### Landing page
 
+- Landing page includes images of two cute fluffy monsters. 
+  - The grumpy-looking red monster represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
+  - The fluffy blue monster with a smiling face is the real identity of statistics: fun, playful, and <gr> xxx/>
+- Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
+
+#### Motivational poster page
+
+- This is a poster that I created while learning CSS formatting and the Box Model.  
+
+- It is a page on its own right. Therefore it is th eonly link on the navigation panel that opens on a new page. 
+
+- It shows quite a contrast to other pages on the site, but it is designed to impress and take the whole attention to the message. 
+
+- It is a reminder for everybody: learners of all subjects, people working towards their targets, and myself. 
 
 ## Problems faced
 
@@ -133,4 +147,9 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Text-based fonts used in this project are downloaded from [Google Fonts](http://fonts.google.com). 
 
 - The social media symbols used are from [Font Awesome](https://fontawesome.com/).
+
+### Hidden images
+
+- The idea of using hidden images to be able to use alt text was taken from Oliver Hall's explanation on Content Forest: [Question: How to add alt text for a background image in HTML/CSS?](https://contentforest.com/faq/how-to-add-alt-text-for-background-image). I used the example code provided there. [Accessed on 12 September 2024]
   
+

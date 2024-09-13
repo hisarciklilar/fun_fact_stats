@@ -1,6 +1,9 @@
 /* "Happy Monkey", "Lexend" and "Rock Salt" fonts from Google Fonts */
 /* Rock Salt to be used the header, Happy Monkey in titles, and Lexend for general text */
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lexend:wght@100..900&family=Rock+Salt&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
 
 /* =========================================== */
 /* Font style classes copied from google-fonts */
@@ -236,6 +239,34 @@ main {
   text-align: center; 
 }
 
+.motivational-body {
+  background-color: black;
+}
+.motivational {
+  margin-left: 25%;
+  width: 50%;
+  margin-top: 5%;
+  text-align: center;
+  color: white;    
+}
+
+.motivational h1 {
+  text-transform: uppercase;
+  font-family: jost, sans-serif;
+  color: white;
+}
+
+#motivation-image {
+  width: 100%;
+  border: 5px solid white;
+}
+
+.motivational p {
+  font-size: 1.5rem;
+  font-family: jost, sans-serif;
+  line-height: 3;
+  color: white;
+}
 
 /* Footer */
 footer {
