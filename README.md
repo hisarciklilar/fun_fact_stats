@@ -28,6 +28,12 @@ The inspiration for this page came from the book "Lady Testing Tea" by David Sal
 
 ### Existing Features
 
+- __Favicon__
+
+- The normal distribution is chosen as the favicon for this website due to its simplicity, allowing for an easy recognition even when it is tiny. 
+
+- The area under the normal diustribution curve is shaded in red to introduce a greater constrast with the white background.
+
 - __Navigation Bar__
 
 - The navigation bar includes links to five main pages: Home, Fun Facts, Fun Stats, Subscribe, Feeling overwhelmed? 
@@ -110,3 +116,7 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
   - [GitHub Guides](https://github.com/git-guides)
   - [Stack overflow](https://stackoverflow.com)
       - To solve the issue of a connection failure, Pawel Trojanski suggested to increase buffer size by using `git config http.postBuffer 524288000`. Available from [https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se](https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se) [Accessed 13 September 2024]
+      
+- Favicon is created from a png file using  [https://favicon.io/](https://favicon.io/). The picture file used is created by me on my tablet. - The favicon code on the head are copied from two sources: 
+  - Love running walkthrough example
+  - [How to Add a Favicon in HTML: Your Easy Step-by-Step Guide](https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/) by Cristian G. Guasch. [Accessed 13 September 2024]  
