@@ -95,7 +95,7 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - This is a poster that I created while learning CSS formatting and the Box Model.  
 
-- It is a page on its own right. Therefore it is th eonly link on the navigation panel that opens on a new page. 
+- It is a page on its own right. Therefore it is the only link on the navigation panel that opens on a new page. It does not have a link back to the homepage either. It is self-standing.  
 
 - It shows quite a contrast to other pages on the site, but it is designed to impress and take the whole attention to the message. 
 

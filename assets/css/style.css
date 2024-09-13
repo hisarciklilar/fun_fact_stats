@@ -239,13 +239,17 @@ main {
   text-align: center; 
 }
 
+/* ============================= */
+/* CSS for the motivational page */
+/* ============================= */
+
 .motivational-body {
   background-color: black;
 }
 .motivational {
-  margin-left: 25%;
-  width: 50%;
-  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  margin-top: 30%;
   text-align: center;
   color: white;    
 }
@@ -254,6 +258,9 @@ main {
   text-transform: uppercase;
   font-family: jost, sans-serif;
   color: white;
+  font-size: 105%;
+  margin-top: 30px;
+  line-height: 1.5em;
 }
 
 #motivation-image {
@@ -262,13 +269,21 @@ main {
 }
 
 .motivational p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-family: jost, sans-serif;
   line-height: 3;
   color: white;
+  letter-spacing: 2px;
 }
 
+.landscape {
+  display: none;
+}
+
+/* ====== */
 /* Footer */
+/* ====== */
+
 footer {
 background-color: gold;
 color: #3a3a3a;
@@ -399,6 +414,32 @@ footer > p {
   order: -1;
 }
 
+/* Motivational poster */
+
+.portrait {
+  display: none;
+}
+
+.landscape {
+  display: block;
+}
+
+.motivational {
+  margin-left: 25%;
+  width: 50%;
+  margin-top: 4%;
+}
+
+.motivational h1 {
+  font-size: 150%;
+  margin-top: 30px;
+  line-height: 1.5em;
+}
+
+.motivational p {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
 
   #social-networks {
     text-align: center;
