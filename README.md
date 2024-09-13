@@ -20,6 +20,8 @@ Students tend to struggle with statistical concepts. They have pre-set opinions 
 
 The inspiration for this page came from the book "Lady Testing Tea" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
 
+The target audience for this website are UG students, although anybody who is interested with statistics is welcomed!
+
 <gr> Add a screenshot of responsiveness</gr>
 
 ## Features 
@@ -28,21 +30,23 @@ The inspiration for this page came from the book "Lady Testing Tea" by David Sal
 
 ### Existing Features
 
-- __Favicon__
+#### Favicon
 
 - The normal distribution is chosen as the favicon for this website due to its simplicity, allowing for an easy recognition even when it is tiny. 
 
-- The area under the normal diustribution curve is shaded in red to introduce a greater constrast with the white background.
+- The area under the normal diustribution curve is shaded in red to introduce a greater contrast with the white background and also it is the same color as the "anxious" statistics monster.
 
-- __Navigation Bar__
+#### Navigation Bar
 
 - The navigation bar includes links to five main pages: Home, Fun Facts, Fun Stats, Subscribe, Feeling overwhelmed? 
 
+- The background color of the navigation bar is chosen to be a warm color, gold, to create a positive feeling for the user.
 
+- Similarly, the header fonts (Rock-Salt and Happy Monkey) are  chosen because of their fun-looking style, to match the title. 
+
+- The navigation links open on the same page, except "Feeling overwhelmed?", which opens on a new page. This is because the latter is designed to be an impactful motivational poster, free of any header or footer items. 
 
 #### Fonts
-
-Text-based fonts used in this project are downloaded from [Google Fonts](http://fonts.google.com). The social media symbols used are from [Font Awesome](https://fontawesome.com/). 
 
 The following fonts are used:  
 
@@ -79,6 +83,9 @@ Below, I provide screenshots of some alternatives considered.
 - The webpage that I used
 The webpage did in fact produce something very close to what I wanted. Also, I managed to align the fonts so that they resemble (to follow) a normal distribution. But I dis not use this in the end, because the text was created as a link to an image, which was not as practical as working with fonts and text.  
 </gr>
+
+#### Body 
+
 
 ## Problems faced
 
@@ -120,3 +127,10 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Favicon is created from a png file using  [https://favicon.io/](https://favicon.io/). The picture file used is created by me on my tablet. - The favicon code on the head are copied from two sources: 
   - Love running walkthrough example
   - [How to Add a Favicon in HTML: Your Easy Step-by-Step Guide](https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/) by Cristian G. Guasch. [Accessed 13 September 2024]  
+  
+### Fonts
+
+- Text-based fonts used in this project are downloaded from [Google Fonts](http://fonts.google.com). 
+
+- The social media symbols used are from [Font Awesome](https://fontawesome.com/).
+  

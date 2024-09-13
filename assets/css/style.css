@@ -176,6 +176,11 @@ main {
   margin-bottom: 100px;
 }
 
+/* Included to hide the monster images to be able to use alt text and also used for a responsive motivational poster page */
+.hidden {
+  visibility: hidden;
+}
+
 #anxious-monster {
   display: flex;
   align-items: center;
