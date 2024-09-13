@@ -75,7 +75,7 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Created the boilerplate using the VS Code shortcut
 - Added meta tags for search engines 
 - Linked the document to stylesheet
-- Created the sections of the body: header, main and footer
+- rgb(9, 105, 218) Created the sections of the body: header, main and footer
 
 ## Things to work on before submission
 - Add the favicon. 

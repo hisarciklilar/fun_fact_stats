@@ -166,37 +166,68 @@ main {
   margin-top: 100px;
 }
 
-#stats-anxious-monster {
+#page-info {
+  margin: 20px;
+  font-size: medium;
   text-align: center;
+}
+
+#stats-greet{
+  margin-bottom: 100px;
+}
+
+#anxious-monster {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
 }
-#anxious-monster {
-  width: 100vw;
-  height: 100vw;
+
+/* The idea of using the image in background is from love-running walk through example */
+#anxious-monster-image {
+  width: 50vw;
+  height: 50vw;
   background: url(../images/anxious_monster.jpg) no-repeat center center / cover;
   position: relative;
-  margin: 20px;
-  max-width:200px;
-  max-height: 200px;  
+  max-width:300px;
+  max-height: 300px; 
+  text-align: center;
 }
 
-/* #anxious-monster-greet {
-  background-color: #3a3a3a;
-  width: 45%;
-  height: 45%;
-} */
+
+#anxious-monster-greet {
+  background-color: gray;
+  width: 50vw;
+  margin-left: 25%;
+  margin-right: 25%;
+  /* height: 70vw; */
+  line-height: normal;
+  text-align: center; 
+}
 
 #happy-monster {
-  width: 100vw;
-  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#happy-monster-image {
+  width: 50vw;
+  height: 50vw;
   background: url(../images/happy_monster.jpg) no-repeat center center / cover;
   position: relative;
-  margin: 20px;
-  max-width:200px;
-  max-height: 200px;  
+  max-width:300px;
+  max-height: 300px; 
+  text-align: center;
+}
+
+#happy-monster-greet {
+  background-color: gray;
+  width: 50vw;
+  margin-left: 25%;
+  margin-right: 25%;
+  /* height: 70vw; */
+  line-height: normal;
+  text-align: center; 
 }
 
 
@@ -291,6 +322,50 @@ footer > p {
     /* Push main content down to accommodate larger header */
     margin-top: 130px;
 }
+
+#stats-anxious-monster { 
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#anxious-monster-image:hover{
+  background: url(../images/happy_monster.jpg) no-repeat center center / cover;
+}
+
+#anxious-monster-greet {
+  background-color: gray;
+  /* width: 50vw; */
+  margin-left: 5%;
+  margin-right: 5%;
+  /* height: 70vw; */
+  line-height: normal;
+  text-align: center; 
+}
+
+#stats-happy-monster { 
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#happy-monster-greet {
+  background-color: gray;
+  /* width: 50vw; */
+  margin-left: 5%;
+  margin-right: 5%;
+  /* height: 70vw; */
+  line-height: normal;
+  text-align: center; 
+  order: -1;
+}
+
 
   #social-networks {
     text-align: center;
