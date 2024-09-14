@@ -170,9 +170,10 @@ main {
 }
 
 #page-info {
-  margin: 20px;
+  margin: 30px 100px;
   font-size: medium;
   text-align: center;
+  line-height: 2;
 }
 
 #stats-greet{
@@ -204,14 +205,19 @@ main {
 
 
 #anxious-monster-greet {
+  /* get back: this background color will be removed in final version */
   background-color: gray;
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
   /* height: 70vw; */
-  line-height: normal;
   text-align: center; 
 }
+
+#anxious-monster-greet p {
+  line-height: 2;
+}
+
 
 #happy-monster {
   display: flex;
@@ -239,6 +245,17 @@ main {
   text-align: center; 
 }
 
+#happy-monster-greet p {
+  line-height: 2;
+}
+
+#happy-monster-greet h3 {
+  font-family: "Rock Salt", sans-serif;
+  font-size: 100%;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  line-height: 2;
+}
   /* =============================== */
   /* CSS for page under construction */
   /* =============================== */

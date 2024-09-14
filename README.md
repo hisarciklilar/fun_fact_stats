@@ -16,7 +16,13 @@ red { color: red }
 
 # Fun Facts Stats
 
-Students tend to struggle with statistical concepts. They have pre-set opinions about Statistics, which make them anxious even before starting to learn. Also, in most cases, they perceive statistics to have abstract concepts; it is very hard for them to relate and to see the point of all calculatons. So, this website aims to show learners of statistics some interesting facts about statistics by revealing where (or under which circumstances) the most commonly used statistical concepts originate from. It also aims to develop, over time, an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress. 
+Fun Fact Stats is a webpage dedicated to break the anxiety around  the learning and application of statistical methods.
+Students tend to struggle with statistical concepts. They have pre-set opinions about Statistics, which make them anxious even before starting to learn. Also, in most cases, they perceive statistics to have abstract concepts; it is very hard for them to relate and to see the point of all calculations. 
+
+This website aims to show the learners and users of statistical methods the fun side of statistics. It does so by two means: 
+
+1. providing fun facts about statistics and 
+2. designing online games starting from the very basic and advancing further as understanding improves.
 
 The inspiration for this page came from the book "Lady Testing Tea" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
 
@@ -93,6 +99,24 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
 
+#### Fun facts page
+
+- This page aims to show learners of statistics some interesting facts about statistics by revealing where (or under which circumstances) the most commonly used statistical concepts originate from. 
+
+- At the moment, there is a single story under this page. The intention is  to develop it further, adding more interesting facts over time. 
+
+- The next story will be on the t-distribution and how statisticians of the Guinness beer factory came with the idea. 
+
+ 
+#### Fun stats page
+
+- There is a placeholder for this page on the website but the currently the only content is an under-construction-type image. 
+
+- To encourage users to come back to the page, brief information is provided with text "stats game under construction" rather than a general message (which may become very discouraging). 
+
+- It will be an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress. 
+
+- It will achive the above objective by creation of a simple interactive statistics game.
 
 #### Motivational poster page
 
