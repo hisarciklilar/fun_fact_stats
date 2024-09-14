@@ -262,6 +262,35 @@ main {
   color: seagreen;
 }
 
+  /* ====================== */
+  /* CSS for fun facts page */
+  /* ====================== */
+  
+  /* ================ */
+  /* table formatting */
+  /* ================ */
+  
+  tr {
+    height: 50px;
+  }
+  th {
+    border: 1px solid black;
+    min-width: 70px;
+    text-align: center;
+  }	
+  
+  .table-header {
+    height: 40px;
+    text-align: center;
+  }
+  
+  td {
+  
+      border: 1px solid black;
+      text-align: center;
+  }
+  
+
   /* =============================== */
   /* CSS for page under construction */
   /* =============================== */
