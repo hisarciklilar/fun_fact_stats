@@ -299,6 +299,10 @@ main {
   display: none;
 }
 
+.portrait {
+  display: block;
+}
+
 .motivational h1 {
   text-transform: uppercase;
   font-family: jost, sans-serif;
@@ -464,9 +468,9 @@ footer > p {
   display: none;
 }
 
-/* .landscape {
+.landscape {
   display: block;
-} */
+}
 
 .motivational {
   margin-left: 25%;
