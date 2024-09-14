@@ -295,10 +295,6 @@ main {
   color: white;    
 }
 
-.portrait {
-  display: block;
-}
-
 .landscape {
   display: none;
 }
@@ -468,9 +464,9 @@ footer > p {
   display: none;
 }
 
-.landscape {
+/* .landscape {
   display: block;
-}
+} */
 
 .motivational {
   margin-left: 25%;
