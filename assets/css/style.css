@@ -303,7 +303,7 @@ main {
   line-height: 1.5em;
 }
 
-#motivation-image {
+.motivation-image {
   width: 100%;
   border: 5px solid white;
 }
@@ -316,14 +316,15 @@ main {
   letter-spacing: 2px;
 }
 
-.landscape {
-  display: none;
-}
-
 .portrait {
   display: block;
 }
   
+.landscape {
+  display: none;
+}
+
+
 /* ====== */
 /* Footer */
 /* ====== */
