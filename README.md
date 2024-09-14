@@ -148,15 +148,9 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Another issue is that, the changes I make on the file locally do not appear in `git status` as changes unless I save them. I am working with VS Code. It would save my changes automatically, and the setting is still set for an automatic save. But for some reason, the automatic save is not working. Because I did not realise this, I could not see any changes to commit, even when I made changes in the files. This resulted with me not being able to update my repository. I now manually save the files (rather than relying on automatic save), which allows git to see the changes and commit. 
 
 
-
-
-## Steps that were followed during the creation of this website
-
-## Things to work on before submission
-- Add the favicon. 
-
 ## Things to get back to, time allowing
 - "Feeling overwhelmed" navigation item is not quite the same as the others. I may move it somewhere else or align it to the right end of the page. 
+- Remove the big white space at the bottom of the landing page
 
 
 ## Credits

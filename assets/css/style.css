@@ -286,12 +286,21 @@ main {
 .motivational-body {
   background-color: black;
 }
+
 .motivational {
   margin-left: 15%;
   width: 70%;
   margin-top: 30%;
   text-align: center;
   color: white;    
+}
+
+.portrait {
+  display: block;
+}
+
+.landscape {
+  display: none;
 }
 
 .motivational h1 {
@@ -316,13 +325,6 @@ main {
   letter-spacing: 2px;
 }
 
-.portrait {
-  display: block;
-}
-  
-.landscape {
-  display: none;
-}
 
 
 /* ====== */
