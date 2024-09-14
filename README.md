@@ -87,9 +87,12 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 #### Landing page
 
 - Landing page includes images of two cute fluffy monsters. 
-  - The grumpy-looking red monster represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
-  - The fluffy blue monster with a smiling face is the real identity of statistics: fun, playful, and <gr> xxx/>
+  - The grumpy-looking red monster (anxious monster) represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
+  - The fluffy blue monster with a smiling face (happy monster) is the real identity of statistics: fun, playful, and <gr> xxx/>
+- I wanted the user to see the "real" face of the statistics monster by somehow changing the look of the anxious monster to a happy monster. With the limitations of the html and css, I did this using hoover style. In large screens, hoovering over the anxious monster reveals the real face of it: the happy monster.   
+
 - Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
+
 
 #### Motivational poster page
 
@@ -100,6 +103,8 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - It shows quite a contrast to other pages on the site, but it is designed to impress and take the whole attention to the message. 
 
 - It is a reminder for everybody: learners of all subjects, people working towards their targets, and myself. 
+
+- I used two alternative, but similar images for this page. An image in portrait view loads for mobile phone users while another image with a landscape view loads for tablets and gadgets with larger screens.  
 
 ## Problems faced
 
@@ -150,6 +155,12 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 ### Hidden images
 
-- The idea of using hidden images to be able to use alt text was taken from Oliver Hall's explanation on Content Forest: [Question: How to add alt text for a background image in HTML/CSS?](https://contentforest.com/faq/how-to-add-alt-text-for-background-image). I used the example code provided there. [Accessed on 12 September 2024]
+- The idea of using hidden images to be able to use alt text is taken from Oliver Hall's explanation on Content Forest: [Question: How to add alt text for a background image in HTML/CSS?](https://contentforest.com/faq/how-to-add-alt-text-for-background-image). I used the example code provided there. [Accessed on 12 September 2024]
+
+### Image swapping 
+
+- The idea of image swapping with a media query is taken from [jmore009's post on stack overflow](https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping) [Accessed on 12 September 2024]. 
+
+
   
 

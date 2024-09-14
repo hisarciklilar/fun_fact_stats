@@ -330,6 +330,13 @@ footer > p {
     margin-top: -10px;
     margin-bottom: 20px;
   }
+
+  /* page under construction */
+#comeback {
+  width: 80vw;
+  height:80vw;
+  text-align: center;
+}
 /* ================================================== */
 /* Media query: tablets and larger (768px and higher) */
 /* ================================================== */
