@@ -56,6 +56,14 @@ I aim to break the anxiety around learning statistics by
 
 ## Design
 ### Colour Scheme
+
+RGB hex values of the colors used in this website:
+
+- #ffd700 (named color: gold)
+- #2e8b57 (named color: seagreen)
+- #3a3a3a;
+- #808080 (name color: gray)
+
 ### Typography
 ### Imagery
 ### Wireframes
@@ -224,6 +232,16 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 ### Image swapping 
 
 - The idea of image swapping with a media query is taken from [jmore009's post on stack overflow](https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping) [Accessed on 12 September 2024]. 
+
+### Form
+
+- The examples provided in the love-running walkthrough example and the Coders Coffeehouse pages were very helpful. I changed these and applied my own coding, but I learned a lot from these examples durind the process. 
+
+- The checkbox margins are set using the post by [Suraj Parise's post on stack overflow](https://stackoverflow.com/questions/54003551/how-to-do-the-spacing-between-checkboxes-and-values) [Accessed on 14 September 2024].
+
+### Code formatting
+
+- I used VS Code's "Prettier Code Formatting" extension to format the html and css code.
 
 ## Acknowledgements
 

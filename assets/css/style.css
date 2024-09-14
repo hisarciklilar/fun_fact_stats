@@ -133,8 +133,6 @@ h2 {
   
 #menu > li {
     margin-bottom: 0.5em;
-    border: solid 2px gold;
-    padding: 0.4rem;
   }
   
 .active {
@@ -341,7 +339,64 @@ main {
     height: auto;
   }
 
-  
+/* ====================== */
+/* CSS for subscribe page */
+/* ====================== */
+
+/* I used examples from love-running walkthrough and Coders Coffee House website with modifications  */
+select {
+  height: 30px;
+  width: 100px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+#subscribe h2 {
+  text-align: left;
+}
+
+#subscribe p {
+  margin-bottom: 10px;
+}
+
+#subscribe-form {
+  background-color: rgba(223, 219, 219, 0.862);
+  padding: 50px;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+.personal-detail {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.block-label {
+  display: block;
+}
+
+#feedback {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox-margin label{
+  margin-left: 5px;
+  margin-right: 30px;
+}
+
 /* ============================= */
 /* CSS for the motivational page */
 /* ============================= */
@@ -600,21 +655,10 @@ footer > p {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 100%;
-    border: solid 2px gold;
-    /* padding: 0.5rem; */
   }
 
-  #menu li:hover {
-  /* border-bottom: 1px solid #3a3a3a; */
-  /* Option 1 */
-  /* color: white;
-  background-color: seagreen; */
-  /* Option 2 */
-  /* border: 3px solid coral; */
-  /* border: 2px solid rgb(228,0,124); */
-  border: 2px solid seagreen;
-  border-radius: 5px;
-  padding: 0.4rem;
+  #menu a:hover {
+  color: seagreen;
   }
 
 

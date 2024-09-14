@@ -1,170 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- ==== -->
+  <!-- HEAD -->
+  <!-- ==== -->
 
-<!-- ==== -->
-<!-- HEAD -->
-<!-- ==== -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta name="description" content="Fun Facts Stats. A webpage dedicated to break the anxiety around the learning and application of statistical methods." >
-    <meta name="keywords" content="statistics, statistical analysis, econometrics, econometric modelling, data analysis, fun facts, statistics monster">
-    <meta name="author" content="Mehtap Hisarciklilar"/>
-         <!-- Favicon -->
+    <meta
+      name="description"
+      content="Fun Facts Stats. A webpage dedicated to break the anxiety around the learning and application of statistical methods."
+    />
+    <meta
+      name="keywords"
+      content="statistics, statistical analysis, econometrics, econometric modelling, data analysis, fun facts, statistics monster"
+    />
+    <meta name="author" content="Mehtap Hisarciklilar" />
+    <!-- Favicon -->
     <!-- Following lines are copied from https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/ -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- For Chrome on Android -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
     <!-- Following 3 lines are copied from love-running walkthrough example -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
     <!-- Title -->
     <title>Fun Fact Stats</title>
-    
+
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/style.css">   
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<!-- ==== -->
-<!-- BODY -->
-<!-- ==== -->
+  <!-- ==== -->
+  <!-- BODY -->
+  <!-- ==== -->
 
-<body>
-    <!-- ============ -->    
+  <body>
+    <!-- ============ -->
     <!-- Body: HEADER -->
-    <!-- ============ -->    
+    <!-- ============ -->
 
     <header>
-        <a href="./index.html">
-            <h1>Fun Fact Stats</h1>
-        </a>
+      <a href="./index.html">
+        <h1>Fun Fact Stats</h1>
+      </a>
 
-        <!-- Below is to add navbar items as a dropdown list on mobile phones. -->
-        <!-- Code for input is copied from CI love-running walkthrough example -->
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <!-- Navigation items -->
-        <nav>
-            <ul id="menu">
-                <!-- GET BACK - add links below and remove bulleting -->
-                <li><a href="./index.html" >Home</a></li>
-                <li><a href="./funfacts.html" class="active">Fun Facts</a></li>
-                <li><a href="./funstats.html">Fun Stats</a></li>
-                <li><a href="./subscribe.html">Subscribe</a></li>
-                <li><a href="./motivational.html" target="_blank">Feeling overwhelmed?</a></li>
-            </ul>
-        </nav>
+      <!-- Below is to add navbar items as a dropdown list on mobile phones. -->
+      <!-- Code for input is copied from CI love-running walkthrough example -->
+      <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <!-- Navigation items -->
+      <nav>
+        <ul id="menu">
+          <!-- GET BACK - add links below and remove bulleting -->
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./funfacts.html" class="active">Fun Facts</a></li>
+          <li><a href="./funstats.html">Fun Stats</a></li>
+          <li><a href="./subscribe.html">Subscribe</a></li>
+          <li>
+            <a href="./motivational.html" target="_blank"
+              >Feeling overwhelmed?</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- ========== -->    
+    <!-- ========== -->
     <!-- Body: MAIN -->
-    <!-- ========== -->   
+    <!-- ========== -->
     <main id="fun-fact-main">
-        <section id="lady-tasting-tea">
-            <div class="path">
-                Fun facts :: Lady Tasting Tea
-            </div>
+      <section id="lady-tasting-tea">
+        <div class="path">Fun facts :: Lady Tasting Tea</div>
 
-            <h2 class="fun-fact-h2">Lady Tasting Tea</h2>
-            
-            <div>
-                <ul class="keywords">
-                    <li>Experiment design</li>
-                    <li>p-value</li>
-                    <li>Fischer</li>
-                    <li>cross-tabulation</li>
-                </ul>
-            </div>
-            <div>
-                <p>Do you add milk to your tea? I don't!</p>
-                <p>If you are one of those who would like to have their tea with milk, do you have a particular order of pouring these two ingredients into the cup? </p>
-                <p>Do you add the milk first and then the tea or vice versa?</p>
-                <p>You may be thinking, 
-                    "what difference does it even make?" </p>
-                <p>This was the conversation at a tea party in xxx between xxx and xxx</p>
-            </div>
-            <div>
-                <table>
-                    <caption>A cross-tabulation of possible outcomes</caption>
-                    <tr>
-                        <th></th><th>Tea first</th><th>Milk first</th>
-                    </tr>
-                    <tr>
-                        <th>Tea first</th><td>a</td><td>b</td>
-                    </tr>
-                    <tr>
-                        <th>Milk first</th><td>c</td><td>d</td>
-                    </tr>
-                </table>  
-            </div>
-            <div>
-                For more information, try searching for "Lady Drinking Tea" in the frame provided below. 
-                <br/>
-            
-                <iframe src="https://www.wikipedia.org/" height="200" width="450"></iframe>
-            </div>
+        <h2 class="fun-fact-h2">Lady Tasting Tea</h2>
 
-        </section>
-           
+        <div>
+          <ul class="keywords">
+            <li>Experiment design</li>
+            <li>p-value</li>
+            <li>Fischer</li>
+            <li>cross-tabulation</li>
+          </ul>
+        </div>
+        <div>
+          <p>Do you add milk to your tea? I don't!</p>
+          <p>
+            If you are one of those who would like to have their tea with milk,
+            do you have a particular order of pouring these two ingredients into
+            the cup?
+          </p>
+          <p>Do you add the milk first and then the tea or vice versa?</p>
+          <p>You may be thinking, "what difference does it even make?"</p>
+          <p>
+            This was the conversation at a tea party in xxx between xxx and xxx
+          </p>
+        </div>
+        <div>
+          <table>
+            <caption>
+              A cross-tabulation of possible outcomes
+            </caption>
+            <tr>
+              <th></th>
+              <th>Tea first</th>
+              <th>Milk first</th>
+            </tr>
+            <tr>
+              <th>Tea first</th>
+              <td>a</td>
+              <td>b</td>
+            </tr>
+            <tr>
+              <th>Milk first</th>
+              <td>c</td>
+              <td>d</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          For more information, try searching for "Lady Drinking Tea" in the
+          frame provided below.
+          <br />
+
+          <iframe
+            src="https://www.wikipedia.org/"
+            height="200"
+            width="450"
+          ></iframe>
+        </div>
+      </section>
     </main>
-    <!-- ============ -->   
+    <!-- ============ -->
     <!-- Body: FOOTER -->
-    <!-- ============ -->   
+    <!-- ============ -->
     <footer>
-        <footer>
-            <p> Follow me on</p>
-            <!-- Below code is copied from CI's love-running walkthrough example with some modifications -->
-            <ul id="social-networks">
-                <li>
-                    <a href="https://www.linkedin.com/in/mehtap-hisarciklilar-930560b/" target="_blank" rel="noopener" aria-label="Add me to your network (opens in a new page)">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/hisarciklilar" target="_blank" rel="noopener" aria-label="Check out my GitHub (opens in a new page)">
-                        <i class="fa-brands fa-square-github"></i>
-                    </a>
-                </li>        
-                <li>
-                    <a href="https://www.researchgate.net/profile/Mehtap-Hisarciklilar" target="_blank" rel="noopener" aria-label="Follow me on Researchgate (opens in a new page)">
-                        <i class="fa-brands fa-researchgate"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/MHisarciklilar" target="_blank" rel="noopener" aria-label="Follow me on Twitter page (opens in a new page)">
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://scholar.google.com/citations?hl=en&user=8ds93EUAAAAJ" target="_blank" rel="noopener" aria-label="Check-out my research (opens in a new page)">
-                        <i class="fa-brands fa-google-scholar"></i>
-                    </a>
-                </li>        
-                <li>
-                    <a href="https://www.ravelry.com/people/methap" target="_blank" rel="noopener" aria-label="See examples of my crafts work (opens in a new page)">
-                        <i class="fa-brands fa-ravelry"></i>
-                    </a>
-                </li>        
-            </ul>
+      <p>Follow me on</p>
+      <!-- Below code is copied from CI's love-running walkthrough example with some modifications -->
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mehtap-hisarciklilar-930560b/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Add me to your network (opens in a new page)"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/hisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out my GitHub (opens in a new page)"
+          >
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.researchgate.net/profile/Mehtap-Hisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follow me on Researchgate (opens in a new page)"
+          >
+            <i class="fa-brands fa-researchgate"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://x.com/MHisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follow me on Twitter page (opens in a new page)"
+          >
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=8ds93EUAAAAJ"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check-out my research (opens in a new page)"
+          >
+            <i class="fa-brands fa-google-scholar"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ravelry.com/people/methap"
+            target="_blank"
+            rel="noopener"
+            aria-label="See examples of my crafts work (opens in a new page)"
+          >
+            <i class="fa-brands fa-ravelry"></i>
+          </a>
+        </li>
+      </ul>
 
-            <!-- ===== -->
-            <!-- Notes -->
-            <!-- ===== -->
+      <!-- ===== -->
+      <!-- Notes -->
+      <!-- ===== -->
 
-            <div class="align-right" id="project-detail-ci">
-                <p>Code Institute</p>
-                <p>Diploma in Full Stack Software Development</p>                 
-            </div>
-            <div class="align-right bottom-line" id="project-detail-mh">   
-                <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p> 
-                <p><i class="fa-regular fa-copyright"></i> 2024  Mehtap Hisarciklilar
-                </p>
-            </div>
+      <div class="align-right" id="project-detail-ci">
+        <p>Code Institute</p>
+        <p>Diploma in Full Stack Software Development</p>
+      </div>
+      <div class="align-right bottom-line" id="project-detail-mh">
+        <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p>
+        <p><i class="fa-regular fa-copyright"></i> 2024 Mehtap Hisarciklilar</p>
+      </div>
 
-            <!-- <div class="align-right" id="project-detail">
+      <!-- <div class="align-right" id="project-detail">
                 <p>Code Institute</p>
                 <p>Diploma in Full Stack Software Development</p>                 
                 <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p> 
@@ -172,12 +239,12 @@
             <div class="align-right bottom-line">   
                 <i class="fa-regular fa-copyright"></i> 2024  Mehtap Hisarciklilar
             </div> -->
-      
-        </footer>
     </footer>
 
-    <!-- Font Awesome kit; copied from Font Awesome webpage -->        
-    <script src="https://kit.fontawesome.com/7b5152d300.js" crossorigin="anonymous"></script>
-
-</body>
+    <!-- Font Awesome kit; copied from Font Awesome webpage -->
+    <script
+      src="https://kit.fontawesome.com/7b5152d300.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,162 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- ==== -->
+  <!-- HEAD -->
+  <!-- ==== -->
 
-<!-- ==== -->
-<!-- HEAD -->
-<!-- ==== -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta name="description" content="Fun Facts Stats. A webpage dedicated to break the anxiety around the learning and application of statistical methods." >
-    <meta name="keywords" content="statistics, statistical analysis, econometrics, econometric modelling, data analysis, fun facts, statistics monster">
-    <meta name="author" content="Mehtap Hisarciklilar"/>
-     <!-- Favicon -->
+    <meta
+      name="description"
+      content="Fun Facts Stats. A webpage dedicated to break the anxiety around the learning and application of statistical methods."
+    />
+    <meta
+      name="keywords"
+      content="statistics, statistical analysis, econometrics, econometric modelling, data analysis, fun facts, statistics monster"
+    />
+    <meta name="author" content="Mehtap Hisarciklilar" />
+    <!-- Favicon -->
     <!-- Following line is copied from https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/ -->
-     <link rel="icon" href="favicon.ico" type="image/x-icon">
-     <!-- Following 3 lines are copied from love-running walkthrough example -->
-     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Following 3 lines are copied from love-running walkthrough example -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
 
     <!-- Title -->
     <title>Fun Fact Stats</title>
-    
+
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/style.css">   
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<!-- ==== -->
-<!-- BODY -->
-<!-- ==== -->
+  <!-- ==== -->
+  <!-- BODY -->
+  <!-- ==== -->
 
-<body>
-    <!-- ============ -->    
+  <body>
+    <!-- ============ -->
     <!-- Body: HEADER -->
-    <!-- ============ -->    
-     
+    <!-- ============ -->
+
     <header>
-        <a href="./index.html">
-            <h1>Fun Fact Stats</h1>
-        </a>
-        <!-- Below is to add navbar items as a dropdown list on mobile phones. -->
-        <!-- Code for input is copied from CI love-running walkthrough example -->
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <!-- Navigation items -->
-        <nav>
-            <ul id="menu">
-                <!-- GET BACK - add links below and remove bulleting -->
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="./funfacts.html">Fun Facts</a></li>
-                <li><a href="./funstats.html">Fun Stats</a></li>
-                <li><a href="./subscribe.html">Subscribe</a></li>
-                <li><a href="./motivational.html" target="_blank">Feeling overwhelmed?</a></li>
-            </ul>
-        </nav>
+      <a href="./index.html">
+        <h1>Fun Fact Stats</h1>
+      </a>
+      <!-- Below is to add navbar items as a dropdown list on mobile phones. -->
+      <!-- Code for input is copied from CI love-running walkthrough example -->
+      <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <!-- Navigation items -->
+      <nav>
+        <ul id="menu">
+          <!-- GET BACK - add links below and remove bulleting -->
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./funfacts.html">Fun Facts</a></li>
+          <li><a href="./funstats.html">Fun Stats</a></li>
+          <li><a href="./subscribe.html">Subscribe</a></li>
+          <li>
+            <a href="./motivational.html" target="_blank"
+              >Feeling overwhelmed?</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- ========== -->    
+    <!-- ========== -->
     <!-- Body: MAIN -->
-    <!-- ========== -->   
+    <!-- ========== -->
     <main>
-
-        <section id="stats-greet">
-            <h2>Does statistics make you nervous?</h2>
-            <div id="page-info"> 
-                <p> You are in the right place! </p>
-                <p> This webpage is dedicated to break your anxiety around learning and application of statistical methods.</p> 
+      <section id="stats-greet">
+        <h2>Does statistics make you nervous?</h2>
+        <div id="page-info">
+          <p>You are in the right place!</p>
+          <p>
+            This webpage is dedicated to break your anxiety around learning and
+            application of statistical methods.
+          </p>
+        </div>
+        <!-- Container 1 -->
+        <div id="stats-anxious-monster">
+          <div id="anxious-monster">
+            <div id="anxious-monster-image">
+              <img
+                src="./assets/images/anxious_monster_small.jpeg"
+                alt="The head of a grumpy-looking fluffy red monster"
+                class="hidden"
+              />
             </div>
-            <!-- Container 1 -->
-            <div id="stats-anxious-monster">
-                <div id="anxious-monster">
-                    <div id="anxious-monster-image">
-                        <img src="./assets/images/anxious_monster_small.jpeg" alt="The head of a grumpy-looking fluffy red monster" class="hidden" />
-                    </div>
-                </div>
-                <div id="anxious-monster-greet">
-                    <div> 
-                        <p>Meet the statistics monster!</p>
-                        <p>It is not as scary as you think. </p>
-                    </div>
-                </div>
+          </div>
+          <div id="anxious-monster-greet">
+            <div>
+              <p>Meet the statistics monster!</p>
+              <p>It is not as scary as you think.</p>
             </div>
-            <!-- Container 2 -->
-            <div id="stats-happy-monster">
-                <div id="happy-monster">
-                    <div id="happy-monster-image">
-                        <img src="./assets/images/happy_monster_small.jpeg" alt="The head of a smiling fluffy blue monster" class="hidden" />
-                    </div>
-                </div>
-                <div id="happy-monster-greet">
-                    <div>
-                        <p>Statistics is</p>
-                        <p><a href="./funfacts.html" target="_blank" class="no-decoration"><h3>fun</h3></a></p>
-                        <p><a href="./subscribe.html" target="_blank" class="no-decoration"><h3>engaging</h3></a></p>
-                        <p><a href="./funstats.html" target="_blank" class="no-decoration"><h3>playful</h3></a></p>
-                        <p>and it makes you <a href="./motivational.html" target="_blank" class="no-decoration">stronger!</a></p>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <!-- Container 2 -->
+        <div id="stats-happy-monster">
+          <div id="happy-monster">
+            <div id="happy-monster-image">
+              <img
+                src="./assets/images/happy_monster_small.jpeg"
+                alt="The head of a smiling fluffy blue monster"
+                class="hidden"
+              />
             </div>
-    
-        </section>
-    
+          </div>
+          <div id="happy-monster-greet">
+            <div>
+              <p>Statistics is</p>
+              <p>
+                <a href="./funfacts.html" target="_blank" class="no-decoration"
+                  ><h3>fun</h3></a
+                >
+              </p>
+              <p>
+                <a href="./subscribe.html" target="_blank" class="no-decoration"
+                  ><h3>engaging</h3></a
+                >
+              </p>
+              <p>
+                <a href="./funstats.html" target="_blank" class="no-decoration"
+                  ><h3>playful</h3></a
+                >
+              </p>
+              <p>
+                and it makes you
+                <a
+                  href="./motivational.html"
+                  target="_blank"
+                  class="no-decoration"
+                  >stronger!</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- ============ -->   
+    <!-- ============ -->
     <!-- Body: FOOTER -->
-    <!-- ============ -->   
+    <!-- ============ -->
     <footer>
-            <p> Follow me on</p>
-            <!-- Below code is copied from CI's love-running walkthrough example with some modifications -->
-            <ul id="social-networks">
-                <li>
-                    <a href="https://www.linkedin.com/in/mehtap-hisarciklilar-930560b/" target="_blank" rel="noopener" aria-label="Add me to your network (opens in a new page)">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/hisarciklilar" target="_blank" rel="noopener" aria-label="Check out my GitHub (opens in a new page)">
-                        <i class="fa-brands fa-square-github"></i>
-                    </a>
-                </li>        
-                <li>
-                    <a href="https://www.researchgate.net/profile/Mehtap-Hisarciklilar" target="_blank" rel="noopener" aria-label="Follow me on Researchgate (opens in a new page)">
-                        <i class="fa-brands fa-researchgate"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/MHisarciklilar" target="_blank" rel="noopener" aria-label="Follow me on Twitter page (opens in a new page)">
-                        <i class="fa-brands fa-square-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://scholar.google.com/citations?hl=en&user=8ds93EUAAAAJ" target="_blank" rel="noopener" aria-label="Check-out my research (opens in a new page)">
-                        <i class="fa-brands fa-google-scholar"></i>
-                    </a>
-                </li>        
-                <li>
-                    <a href="https://www.ravelry.com/people/methap" target="_blank" rel="noopener" aria-label="See examples of my crafts work (opens in a new page)">
-                        <i class="fa-brands fa-ravelry"></i>
-                    </a>
-                </li>        
-            </ul>
+      <p>Follow me on</p>
+      <!-- Below code is copied from CI's love-running walkthrough example with some modifications -->
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mehtap-hisarciklilar-930560b/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Add me to your network (opens in a new page)"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/hisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check out my GitHub (opens in a new page)"
+          >
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.researchgate.net/profile/Mehtap-Hisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follow me on Researchgate (opens in a new page)"
+          >
+            <i class="fa-brands fa-researchgate"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://x.com/MHisarciklilar"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follow me on Twitter page (opens in a new page)"
+          >
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=8ds93EUAAAAJ"
+            target="_blank"
+            rel="noopener"
+            aria-label="Check-out my research (opens in a new page)"
+          >
+            <i class="fa-brands fa-google-scholar"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.ravelry.com/people/methap"
+            target="_blank"
+            rel="noopener"
+            aria-label="See examples of my crafts work (opens in a new page)"
+          >
+            <i class="fa-brands fa-ravelry"></i>
+          </a>
+        </li>
+      </ul>
 
-            <!-- ===== -->
-            <!-- Notes -->
-            <!-- ===== -->
+      <!-- ===== -->
+      <!-- Notes -->
+      <!-- ===== -->
 
-            <div class="align-right" id="project-detail-ci">
-                <p>Code Institute</p>
-                <p>Diploma in Full Stack Software Development</p>                 
-            </div>
-            <div class="align-right bottom-line" id="project-detail-mh">   
-                <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p> 
-                <p><i class="fa-regular fa-copyright"></i> 2024  Mehtap Hisarciklilar
-                </p>
-            </div>
+      <div class="align-right" id="project-detail-ci">
+        <p>Code Institute</p>
+        <p>Diploma in Full Stack Software Development</p>
+      </div>
+      <div class="align-right bottom-line" id="project-detail-mh">
+        <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p>
+        <p><i class="fa-regular fa-copyright"></i> 2024 Mehtap Hisarciklilar</p>
+      </div>
 
-            <!-- <div class="align-right" id="project-detail">
+      <!-- <div class="align-right" id="project-detail">
                 <p>Code Institute</p>
                 <p>Diploma in Full Stack Software Development</p>                 
                 <p><i class="fa-solid fa-code"></i> Portfolio Project 1</p> 
@@ -166,8 +248,10 @@
             </div> -->
     </footer>
 
-    <!-- Font Awesome kit; copied from Font Awesome webpage -->        
-    <script src="https://kit.fontawesome.com/7b5152d300.js" crossorigin="anonymous"></script>
-
-</body>
+    <!-- Font Awesome kit; copied from Font Awesome webpage -->
+    <script
+      src="https://kit.fontawesome.com/7b5152d300.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
