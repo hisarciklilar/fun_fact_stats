@@ -428,6 +428,13 @@ input[type=reset] {
   font-size: medium;
 }
 
+.thanks {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 150%;
+}
+
 /* ============================= */
 /* CSS for the motivational page */
 /* ============================= */
@@ -672,7 +679,6 @@ footer > p {
   flex-grow: 0;
   gap: 30px;
 }
- 
 }
 
 /* ======================================= */
