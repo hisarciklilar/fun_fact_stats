@@ -91,61 +91,89 @@
       <section id="subscribe">
         <form id="subscribe-form" action="./funstats.html" method="get">
           <h2>Join the Community!</h2>
-          
-          <!-- Adding text fields -->
-        <div class="personal-detail">
-            <div>
-                <label for="first-name">First Name</label>
-                <input
-                  id="first-name"
-                  type="text"
-                  name="first_name"
-                  placeholder="Your first name"
-                  required
-                  class="text-input block-label"
-                />
-            </div>
-            <div>
-                <label for="last-name">Last Name</label>
-          <input
-            id="last-name"
-            type="text"
-            name="last_name"
-            placeholder="Your last name"
-            required
-            class="text-input block-label"
-          />
-            </div>
-            <div>
-            <label for="email-address">Email Address</label>
-          <input
-            id="email-address"
-            type="email"
-            name="email_address"
-            placeholder="Your email address"
-            required
-            class="text-input block-label"
-          />
-            </div>
-        </div>  
-        
 
-        <div>
+          <!-- Adding text fields -->
+          <div class="personal-detail">
+            <div>
+              <label for="first-name">First Name</label>
+              <input
+                id="first-name"
+                type="text"
+                name="first_name"
+                placeholder="Your first name"
+                required
+                class="text-input block-label"
+              />
+            </div>
+            <div>
+              <label for="last-name">Last Name</label>
+              <input
+                id="last-name"
+                type="text"
+                name="last_name"
+                placeholder="Your last name"
+                required
+                class="text-input block-label"
+              />
+            </div>
+            <div>
+              <label for="email-address">Email Address</label>
+              <input
+                id="email-address"
+                type="email"
+                name="email_address"
+                placeholder="Your email address"
+                required
+                class="text-input block-label"
+              />
+            </div>
+          </div>
+
+          <div>
             <p>What is your age?</p>
 
-            <label for="age" class="block-label"></label>
+            <label for="age"></label>
             <select id="age" name="age" required>
-                <option value="under-20">Under 20</option>
-                <option value="20-24">20-24</option>
-                <option value="25-29">25-29</option>
-                <option value="30-34">30-34</option>
-                <option value="35-39">35-39</option>
-                <option value="40-44">40-44</option>
-                <option value="45-49">45-49</option>
-                <option value="50+">50 or over</option>
+              <option value="under-20">Under 20</option>
+              <option value="20-24">20-24</option>
+              <option value="25-29">25-29</option>
+              <option value="30-34">30-34</option>
+              <option value="35-39">35-39</option>
+              <option value="40-44">40-44</option>
+              <option value="45-49">45-49</option>
+              <option value="50+">50 or over</option>
             </select>
-        </div>
+          </div>
 
+          <p>Which topics would you like us to cover here?</p>
+          <label for="feedback"></label>
+          <textarea id="feedback" rows="8" cols="35" name="feedback"></textarea>
+
+          <div class="checkbox-margin">
+            <p>Can we contact you about our monthly meetings?</p>
+            <input
+              id="yes"
+              name="inform-consent"
+              value="yes"
+              type="radio"
+              required
+            />
+            <label for="yes">Yes</label>
+
+            <input
+              id="no"
+              name="inform-consent"
+              value="no"
+              type="radio"
+              required
+            />
+            <label for="yes">No</label>
+          </div>
+          <div class="confirm">
+            <input type="submit" class="block-label" value="Submit">
+            <input type="reset" value="Reset Form">
+          </div>
+          
         </form>
       </section>
     </main>
