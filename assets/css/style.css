@@ -427,7 +427,7 @@ footer > p {
 }
 
 #anxious-monster-greet {
-  background-color: gray;
+  /* background-color: gray; */
   /* width: 50vw; */
   margin-left: 5%;
   margin-right: 5%;
@@ -446,7 +446,7 @@ footer > p {
 }
 
 #happy-monster-greet {
-  background-color: gray;
+  /* background-color: gray; */
   /* width: 50vw; */
   margin-left: 5%;
   margin-right: 5%;
@@ -552,10 +552,14 @@ footer > p {
     margin-top: 150px;
   }
   
-  #anxious-monster-image:hover{
+  #anxious-monster-image:hover {
     background: url(../images/happy_monster.jpeg) no-repeat center center / cover;
   }
   
+  #happy-monster-greet a:hover {
+    color: rgb(228,0,124);
+  }
+
 footer div {
   /* I thought pink goes well with yellow so I checked out difference shades of pink on 
   https://html-color.codes/pink page */

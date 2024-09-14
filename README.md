@@ -95,9 +95,18 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - Landing page includes images of two cute fluffy monsters. 
   - The grumpy-looking red monster (anxious monster) represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
   - The fluffy blue monster with a smiling face (happy monster) is the real identity of statistics: fun, playful, and <gr> xxx/>
+
 - I wanted the user to see the "real" face of the statistics monster by somehow changing the look of the anxious monster to a happy monster. With the limitations of the html and css, I did this using hoover style. In large screens, hoovering over the anxious monster reveals the real face of it: the happy monster.   
 
 - Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
+
+- Through the happy monster, statistics is depected as fun, engaging, playful, and also helping the user to get stronger (i.e. more employable). Each of these characteristics are linked to a page:
+  - _fun_ links to "fun facts" page
+  - _engaging_ links to "subscribe" page (note: this is not a perfect match, and will need to be revisited in the future)
+  - _playful_ links to "fun stats" page
+  - makes you _stronger_ links to "motivational" page.
+
+- The color of text linked to these pages changes to pink when user hovers on large screens 
 
 #### Fun facts page
 
