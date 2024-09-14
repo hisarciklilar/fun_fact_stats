@@ -133,6 +133,8 @@ h2 {
   
 #menu > li {
     margin-bottom: 0.5em;
+    border: solid 2px gold;
+    padding: 0.4rem;
   }
   
 .active {
@@ -594,7 +596,15 @@ footer > p {
     font-size: 200%;
   }
   
-  #menu a:hover {
+  #menu > li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 100%;
+    border: solid 2px gold;
+    /* padding: 0.5rem; */
+  }
+
+  #menu li:hover {
   /* border-bottom: 1px solid #3a3a3a; */
   /* Option 1 */
   /* color: white;
@@ -607,11 +617,6 @@ footer > p {
   padding: 0.4rem;
   }
 
-  #menu > li {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 100%;
-  }
 
   main {
     /* Push main content down to accommodate larger header */
