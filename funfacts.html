@@ -47,15 +47,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  <!-- ==== -->
-  <!-- BODY -->
-  <!-- ==== -->
-
   <body>
-    <!-- ============ -->
-    <!-- Body: HEADER -->
-    <!-- ============ -->
-
     <header>
       <a href="./index.html">
         <h1>Fun Fact Stats</h1>
@@ -84,67 +76,87 @@
       </nav>
     </header>
 
-    <!-- ========== -->
-    <!-- Body: MAIN -->
-    <!-- ========== -->
     <main id="fun-fact-main">
       <section id="lady-tasting-tea">
-        <div class="path">Fun facts :: Lady Tasting Tea</div>
+        <div class="path"> <a href="./index.html">Home</a> / <a href="./funfacts.html">Fun facts</a> / Lady Tasting Tea</div>
+
+        <div>
+          <ul class="keywords">
+            <li>Fisher</li>
+            <li>experiment design</li>
+            <li>statistical significance</li>
+            <li>probability</li>
+            <li>cross-tabulation</li>
+          </ul>
+        </div>
 
         <h2 class="fun-fact-h2">Lady Tasting Tea</h2>
 
         <div>
-          <ul class="keywords">
-            <li>Experiment design</li>
-            <li>p-value</li>
-            <li>Fischer</li>
-            <li>cross-tabulation</li>
-          </ul>
-        </div>
-        <div>
           <p>Do you add milk to your tea? I don't!</p>
           <p>
             If you are one of those who would like to have their tea with milk,
-            do you have a particular order of pouring these two ingredients into
-            the cup?
+            do you add the milk first and then the tea or vice versa? Can you tell the difference whether it was the tea or the milk poured into the cup first? 
           </p>
-          <p>Do you add the milk first and then the tea or vice versa?</p>
+          <p></p>
           <p>You may be thinking, "what difference does it even make?"</p>
           <p>
-            This was the conversation at a tea party in xxx between xxx and xxx
+            This was the conversation at a tea party in a summer afternoon of the late 1920s, 
+            in Cambridge, England. One woman in the party insisted that the tea tasted differently 
+            depending on whether tea or the milk was poured into the cup first. 
+            It was difficult for her to convince her audience though. 
+          </p>
+          <p>
+            The guests in the party could not conceive of any difference in the chemistry of the 
+            two alternative ways. Ronald Aylmer Fisher<sup>1</sup>, who was one of the guests 
+            at the time proposed to test the woman's claim. What a fun way to spend a sunny 
+            afternoon, you may say!
+          </p>
+          <p>
+            However, many in the party agreed with this and they started to design an experiment. 
+            The lady was given cups of tea, without her knowing whether the tea was added first 
+            and then the milk, or the milk was added first and then the tea.
+          </p>
+          <p>
+            If the lady was given a single cup of tea, she had a 50% chance of guessing it 
+            right even if she could tell the difference by tasting. 
+          </p>
+          <p>
+            If she was given two cups of tea, this probability would remain the same 
+            if cups were offered in pairs, each with a different order of mixture. 
+            If the cups were not paired, the chances of her getting both cups correct 
+            purely by change would be 0.50 x 0.50 = 0.25.  
+          </p>
+          <p>
+            This is still a good chance!
+          </p>
+          <p>
+            How many cups should she try and guess correctly, so that we can 
+            confidently say that she is right?! 
+            The chances of a correct guess will still remain positive even though it declines with the number of trials. 
+          </p>
+          <p>
+            Similarly, if we serve her ten cups of tea, and she fails to correctly 
+            identify the mixture in one, could we say that she cannot in fact tell 
+            the difference? There is some chance that she may make a mistake if the 
+            milk and tea was not mixed well-enough for that cup or if the temperature of 
+            the tea was not exactly the same as the other cups. How many false 
+            guesses we could accommodate before we conclude that she cannot really tell the difference? 
+          </p>
+          <p class="green-color">
+            These discussions take us to the importance of experimental design, 
+            the possibility of random events influencing our outcomes of interest, 
+            the probability distributions, and the concept of statistical significance.
+          </p>
+          <p>
+            If you would like to learn more about the details of this story, 
+            try searching for "Lady Tasting Tea" in the
+            frame provided below. 
           </p>
         </div>
-        <div>
-          <table>
-            <caption>
-              A cross-tabulation of possible outcomes
-            </caption>
-            <tr>
-              <th></th>
-              <th>Tea first</th>
-              <th>Milk first</th>
-            </tr>
-            <tr>
-              <th>Tea first</th>
-              <td>a</td>
-              <td>b</td>
-            </tr>
-            <tr>
-              <th>Milk first</th>
-              <td>c</td>
-              <td>d</td>
-            </tr>
-          </table>
-        </div>
-        <div>
-          For more information, try searching for "Lady Drinking Tea" in the
-          frame provided below.
-          <br />
-
+        
           <iframe
-            src="https://www.wikipedia.org/"
-            height="200"
-            width="450"
+            src="https://www.wikipedia.org/" class="wiki-frame"
           ></iframe>
         </div>
       </section>

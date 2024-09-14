@@ -278,6 +278,10 @@ main {
     color: #807575;
   }
 
+  .path a {
+    color: #807575;
+    text-decoration: none;
+  }
 
   .fun-fact-h2 {
     font-size: 120%;
@@ -286,18 +290,40 @@ main {
 
   .keywords {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-direction: row;
     justify-content: left;
+    margin-top: 30px;
+    flex-wrap: wrap;
   }
+
   .keywords li {
     list-style: none;
-    border: solid 2px seagreen;
-    border-radius: 5px;
+    border: solid 1px seagreen;
+    border-radius: 20px;
     padding: 7px;
     width: fit-content;
-    font-size: smaller;
+    font-size: smaller; 
   }
+
+  #fun-fact-main p {
+    line-height: 2;
+    margin-bottom: 15px;
+  }
+
+  .green-color {
+    border: solid 2px seagreen;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .wiki-frame {
+    width: 80vw;
+    height: 80vw;
+    margin-bottom: 50px;
+  }
+
   /* ================ */
   /* table formatting */
   /* ================ */
@@ -481,7 +507,6 @@ input[type=reset] {
   letter-spacing: 2px;
 }
 
-
 /* ====== */
 /* Footer */
 /* ====== */
@@ -511,21 +536,18 @@ color: #3a3a3a;
 footer > p {
   padding: 20px 0 10px 60px;
   text-align: left;
-  }
+}
 
 .align-right {
   text-align: right;
   padding-right: 1em;
-  }
+}
   
-  footer div {
-    font-size: smaller;
-    /* I thought pink goes well with yellow so I checked out difference shades of pink on 
-    https://html-color.codes/pink page */
-    color: seagreen;
-    /* color: seagreen; */
-    padding-top: 20px;
-  }
+footer div {
+  font-size: smaller;
+  color: seagreen;
+  padding-top: 20px;
+}
   
   .bottom-line {
     color: seagreen;
@@ -539,22 +561,20 @@ footer > p {
 
 @media screen and (min-width: 768px) {
 
-  h1 {
-    position: relative;
-    font-size: 160%;
-  }
+h1 {
+  position: relative;
+  font-size: 160%;
+}
   
-  /* Header */
-  nav {
-    display: block;
-    position: absolute;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-    width: 100%;
-    /* background-color: #3a3a3a;
-    color: white; */
-  }
+/* Header */
+nav {
+  display: block;
+  position: absolute;
+  box-shadow: none;
+  width: fit-content;
+  padding-right: 1rem;
+  width: 100%;
+}
 
   #menu {
     display: flex;
@@ -588,11 +608,8 @@ footer > p {
 }
 
 #anxious-monster-greet {
-  /* background-color: gray; */
-  /* width: 50vw; */
   margin-left: 5%;
   margin-right: 5%;
-  /* height: 70vw; */
   line-height: normal;
   text-align: center; 
 }
@@ -607,14 +624,22 @@ footer > p {
 }
 
 #happy-monster-greet {
-  /* background-color: gray; */
-  /* width: 50vw; */
   margin-left: 5%;
   margin-right: 5%;
-  /* height: 70vw; */
   line-height: normal;
   text-align: center; 
   order: -1;
+}
+
+/* fun facts page */
+#fun-fact-main {
+  margin-top: 160px;
+}
+
+.wiki-frame {
+  width: 80vw;
+  height: 400px;
+  margin-bottom: 50px;
 }
 
 /* Subscribe page */
@@ -702,7 +727,6 @@ footer > p {
   color: seagreen;
   }
 
-
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 150px;
@@ -715,6 +739,11 @@ footer > p {
   #happy-monster-greet a:hover {
     color: rgb(228,0,124);
   }
+
+/* fun facts page */
+#fun-fact-main {
+  margin-top: 200px;
+}
 
 footer div {
   /* I thought pink goes well with yellow so I checked out difference shades of pink on 

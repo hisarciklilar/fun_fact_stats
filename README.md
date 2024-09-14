@@ -153,9 +153,13 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - This page aims to show learners of statistics some interesting facts about statistics by revealing where (or under which circumstances) the most commonly used statistical concepts originate from. 
 
-- At the moment, there is a single story under this page. The intention is  to develop it further, adding more interesting facts over time. 
+- At the moment, there is a single story under this page. The intention is  to develop it further, adding more interesting facts over time. In that case, the "fun facts" page will have a list of topics and links to corresponding pages while each fun-fact story will be provided in a different page. 
 
-- The next story will be on the t-distribution and how statisticians of the Guinness beer factory came with the idea. 
+- Considering the structure described above, the top of the page starts with an informative path to the page (please note that at the moment "fun facts" page is the same as the "lady tasting tea" page, but this will change as more stories are added.)
+
+- Below the path, there is a set of keywords that the fun fact story covers. This will help the users to relate the story with the statistical concepts. 
+
+ 
 
  
 #### Fun stats page
@@ -183,7 +187,10 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 ### Features to be Added
 
 - The Fun Stats pages which provides an interactive learning environment 
+
 - Addition of more fun fact stories 
+  - The next story will be on the t-distribution and how statisticians of the Guinness beer factory came with the idea.
+
 - Addition of a search button for users to search for relevant concepts
 
 ## Testing 
@@ -238,6 +245,8 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - The examples provided in the love-running walkthrough example and the Coders Coffeehouse pages were very helpful. I changed these and applied my own coding, but I learned a lot from these examples durind the process. 
 
 - The checkbox margins are set using the post by [Suraj Parise's post on stack overflow](https://stackoverflow.com/questions/54003551/how-to-do-the-spacing-between-checkboxes-and-values) [Accessed on 14 September 2024].
+
+- I got the idea of directing the form response to a "thank you for subscribing"" page from my mentor, Matt Bodden.
 
 ### Code formatting
 
