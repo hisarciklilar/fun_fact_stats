@@ -319,7 +319,10 @@ main {
 .landscape {
   display: none;
 }
-  
+
+.portrait {
+  display: block;
+}
   
 /* ====== */
 /* Footer */
