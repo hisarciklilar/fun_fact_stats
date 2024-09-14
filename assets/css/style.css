@@ -353,6 +353,7 @@ select {
 
 #subscribe h2 {
   text-align: left;
+  font-size: 120%;
 }
 
 #subscribe p {
