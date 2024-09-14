@@ -19,16 +19,47 @@ red { color: red }
 Fun Fact Stats is a webpage dedicated to break the anxiety around  the learning and application of statistical methods.
 Students tend to struggle with statistical concepts. They have pre-set opinions about Statistics, which make them anxious even before starting to learn. Also, in most cases, they perceive statistics to have abstract concepts; it is very hard for them to relate and to see the point of all calculations. 
 
-This website aims to show the learners and users of statistical methods the fun side of statistics. It does so by two means: 
+This website aims to show the learners and users of statistical methods the fun side of statistics. It will achieve this through two means: 
 
-1. providing fun facts about statistics and 
-2. designing online games starting from the very basic and advancing further as understanding improves.
+1. Providing fun facts about statistics
 
-The inspiration for this page came from the book "Lady Testing Tea" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
+  This first item is the focus of this project. 
+  
+2. Designing online games starting from the very basic and advancing further as understanding improves.
+
+  Although this is integrated into the design, and a placeholder navigatikon item annd a page is included, this will not be actioned within this project. 
+  
+The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
+
+<gr> Add a screenshot of responsiveness</gr>
+
+## User Experience
 
 The target audience for this website are UG students, although anybody who is interested with statistics is welcomed!
 
-<gr> Add a screenshot of responsiveness</gr>
+### User Stories
+
+Users of the website expect the following: 
+
+- Be familiar with the page design in term of the placement of the navigation bar items, the social media links, etc. 
+- Navigate around the site easily without having the need to search for things.
+- Easily read and understand  the information provided in the pages. 
+- Can see clearly which statistical concept the fun fact story relates to.
+
+### Site Owner's Goals
+
+I aim to break the anxiety around learning statistics by 
+
+- creating a warm, welcoming page 
+- providing users with examples and stories that they can relate to 
+- creating a statistics game to help users learn new concepts they as progress (please note this is a plan for a longer time period; it is not covered within these pages)
+
+## Design
+### Colour Scheme
+### Typography
+### Imagery
+### Wireframes
+### Figma/Full color mockup if produced
 
 ## Features 
 
@@ -141,6 +172,15 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - I used two alternative, but similar images for this page. An image in portrait view loads for mobile phone users while another image with a landscape view loads for tablets and gadgets with larger screens.  
 
+### Features to be Added
+
+- The Fun Stats pages which provides an interactive learning environment 
+- Addition of more fun fact stories 
+- Addition of a search button for users to search for relevant concepts
+
+## Testing 
+
+
 ## Problems faced
 
 - (8 September 2024) I created my project repository on 7 September 2024. I worked on the `index.html`, `style.css` and  did a few commits locally, but when I attempted to push all these changes to GitHub, I realized that there was an issue with the file locations. I kept receiving error messages and failed to push my changes to GitHub. To my understanding, this happened because when I was cloning the GitHub repository initially, I did it wrong. I initially created a folder in the same name as the repository and then attempted a clone, which created a directory within the directory, both with the same name. Seeing this, I moved files around so that I do not have folder within a folder locally, but all files are located under the main folder. I think this  change in file structures created the issue. To ensure that I do not  have similar issues, I created a trial repository from scratch, did a few changes and pushes. After seeing that it works, I deleted my initial project repository from my workspace and then re-started everything again.
@@ -148,11 +188,6 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 - In the new repository, I managed to push changes at start but then started to have problems when committing. The commits did not go through. In some cases, I could see the commit but the `index.html` file appeared as "empty" while in some other cases, the commit did not show at all! I created one new repository after another, thinking restarting from scratch would help. It did not. I think various things were going wrong at the same time, which led me to fail over and over. I think one of these problems is me, not fully understanding the terminal connection to GitHub well enough. I was wrongly assuming that the terminal connection to alternative repositories change automatiocally when I change the local folder, where I cloned these repositories. 
 
 - Another issue is that, the changes I make on the file locally do not appear in `git status` as changes unless I save them. I am working with VS Code. It would save my changes automatically, and the setting is still set for an automatic save. But for some reason, the automatic save is not working. Because I did not realise this, I could not see any changes to commit, even when I made changes in the files. This resulted with me not being able to update my repository. I now manually save the files (rather than relying on automatic save), which allows git to see the changes and commit. 
-
-
-## Things to get back to, time allowing
-- "Feeling overwhelmed" navigation item is not quite the same as the others. I may move it somewhere else or align it to the right end of the page. 
-- Remove the big white space at the bottom of the landing page
 
 
 ## Credits
@@ -190,6 +225,8 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - The idea of image swapping with a media query is taken from [jmore009's post on stack overflow](https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping) [Accessed on 12 September 2024]. 
 
+## Acknowledgements
 
+I extend my thanks to my mentor Matt Bodden, for the help and information that he provided during our mentoring sessions. My conversations with him helped to shape this website and more importantly, to resolve some issues that I faced while working on the project.   
   
 

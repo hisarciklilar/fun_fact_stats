@@ -197,7 +197,7 @@ main {
 #anxious-monster-image {
   width: 50vw;
   height: 50vw;
-  background: url(../images/anxious_monster.jpeg) no-repeat center center / cover;
+  background: url(../images/anxious_monster_small.jpeg) no-repeat center center / cover;
   position: relative;
   max-width:300px;
   max-height: 300px; 
@@ -229,7 +229,7 @@ main {
 #happy-monster-image {
   width: 50vw;
   height: 50vw;
-  background: url(../images/happy_monster.jpeg) no-repeat center center / cover;
+  background: url(../images/happy_monster_small.jpeg) no-repeat center center / cover;
   position: relative;
   max-width:300px;
   max-height: 300px; 
@@ -267,16 +267,17 @@ main {
   /* CSS for fun facts page */
   /* ====================== */
   
+  #fun-fact-main {
+    margin-top: 120px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
   /* path to page on website */
   .path {
     color: #807575;
   }
 
-  #fun-fact-main {
-    margin-top: 150px;
-    margin-right: 10%;
-    margin-left: 10%;
-  }
 
   .fun-fact-h2 {
     font-size: 120%;
@@ -295,6 +296,7 @@ main {
     border-radius: 5px;
     padding: 7px;
     width: fit-content;
+    font-size: smaller;
   }
   /* ================ */
   /* table formatting */
@@ -383,7 +385,6 @@ main {
   color: white;
   letter-spacing: 2px;
 }
-
 
 
 /* ====== */
