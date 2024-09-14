@@ -157,6 +157,7 @@ h2 {
 .nav-toggle-label {
     font-size: 2rem;
   }
+
   /* ============ */
   /* Main content */
   /* ============ */
@@ -166,7 +167,7 @@ main {
   /* Make main element take up any surplus space to push footer down */
   /* Below is copied from CI's love-running walkthrough project */
   flex: 1 0 auto;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 
 #page-info {
@@ -266,10 +267,39 @@ main {
   /* CSS for fun facts page */
   /* ====================== */
   
+  /* path to page on website */
+  .path {
+    color: #807575;
+  }
+
+  #fun-fact-main {
+    margin-top: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .fun-fact-h2 {
+    font-size: 120%;
+    line-height: 5;
+  }
+
+  .keywords {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .keywords li {
+    list-style: none;
+    border: solid 2px seagreen;
+    border-radius: 5px;
+    padding: 7px;
+    width: fit-content;
+  }
   /* ================ */
   /* table formatting */
   /* ================ */
-  
+
   tr {
     height: 50px;
   }

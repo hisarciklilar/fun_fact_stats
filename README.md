@@ -62,7 +62,9 @@ The following fonts are used:
 
 - "Rock Salt" for heading level 1 (which is the main header of the wage). Choosing the font style for header was the most difficult. Since it serves as the logo to the page, it takes an important role. <gr> I wanted .... it to read easily...  </gr>
 
-A few alternative options were consired for the header. 
+- "Jost" for motivational poster page
+
+A few alternative options were considered for the header. 
 
 #### Fonts for the Header
 
