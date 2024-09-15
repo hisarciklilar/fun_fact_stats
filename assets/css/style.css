@@ -2,9 +2,9 @@
 /* Rock Salt to be used the header, Happy Monkey in titles, and Lexend for general text */
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lexend:wght@100..900&family=Rock+Salt&display=swap');
 <style>
+/* Jost is used for the motivational poster */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
-
 /* =========================================== */
 /* Font style classes copied from google-fonts */
 /* =========================================== */
@@ -16,47 +16,34 @@
 }
 
 .happy-monkey-regular {
-    font-family: "Happy Monkey", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-/* 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.lexend-<uniquifier> {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
   font-style: normal;
-} 
-  */
+}
 
 .lexend-light {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  } 
-  
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .lexend-regular {
-    font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  } 
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* ============================================ */
 /* Override default styles added by the browser */
 /* ============================================ */
 
 /* Below copied from CI love-running walkthrough project example */
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* ============== */
@@ -65,39 +52,39 @@
 
 /* Below copied from CI love-running walkthrough project example with some modifications */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: lexend-regular, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  color: #3a3a3a;
+  font-family: lexend-regular, sans-serif;
 }
 
 /* Below, I got the idea of a box-shadow from love-running walkthrough, modified the code slightly */
 header {
-    background-color: gold;
-    padding-top: 20px;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 4px 3px #3a3a3a;
-    z-index: 99;
-    /* Below moves dropdown toggle to header */
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-  }
+  background-color: gold;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 3px #3a3a3a;
+  z-index: 99;
+  /* Below moves dropdown toggle to header */
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
 
-  header a {
-    text-decoration: none;
-    color: inherit;
-  }
+header a {
+  text-decoration: none;
+  color: inherit;
+}
 
 h1 {
-    text-align: center;
-    font-family: "Rock salt", sans-serif;   
-    color: #3a3a3a;
-    letter-spacing: 5px;
-    font-size: 140%;
+  text-align: center;
+  font-family: "Rock salt", sans-serif;
+  color: #3a3a3a;
+  letter-spacing: 5px;
+  font-size: 140%;
 }
 
 h2 {
@@ -107,60 +94,61 @@ h2 {
   font-size: 110%;
   padding-top: 10px;
 }
-  /* In mobile phones, the navbar style will be a dropdown list */
-  /* Copied the following code from CI love-running walkthrough example with some modifications */
-  nav {
-    position: absolute;
-    background-color: gold;
-    width: 100%;
-    left: 0%;
-    box-shadow: 2px 2px 2px gray;
-    display: none;
-    top: 100%;
-  }
+
+/* In mobile phones, the navbar style will be a dropdown list */
+/* Copied the following code from CI love-running walkthrough example with some modifications */
+nav {
+  position: absolute;
+  background-color: gold;
+  width: 100%;
+  left: 0%;
+  box-shadow: 2px 2px 2px gray;
+  display: none;
+  top: 100%;
+}
 
 /* ============= */
 /* Header styles */
 /* ============= */
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 2px;
-    list-style-type: none;
-    margin-left: 2em;
-    font-family: "Happy Monkey", sans-serif;
-  }
-  
-#menu > li {
-    margin-bottom: 0.5em;
-  }
-  
+  font-size: 100%;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin-left: 2em;
+  font-family: "Happy Monkey", sans-serif;
+}
+
+#menu>li {
+  margin-bottom: 0.5em;
+}
+
 .active {
-    border-bottom: 1px solid seagreen;
-    box-shadow: 2px 2px 2px gray;
-    /* border: 2px solid seagreen;
-    border-radius: 5px; */
-  }
-  
+  border-bottom: 1px solid seagreen;
+  box-shadow: 2px 2px 2px gray;
+}
+
 /* ================= */
 /* Navigation toggle */
 /* ================= */
 
 /* Below (the three toggle-related id and classes) are copied from CI love-running walkthrough example */
-#nav-toggle:checked~nav{
-    display: block;
-  }
-  /* Hide the checkbox */
-#nav-toggle {
-    display: none;
-  }
-.nav-toggle-label {
-    font-size: 2rem;
-  }
+#nav-toggle:checked~nav {
+  display: block;
+}
 
-  /* ============ */
-  /* Main content */
-  /* ============ */
+/* Hide the checkbox */
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+
+/* ============ */
+/* Main content */
+/* ============ */
 
 main {
   background-color: white;
@@ -177,7 +165,7 @@ main {
   line-height: 2;
 }
 
-#stats-greet{
+#stats-greet {
   margin-bottom: 100px;
 }
 
@@ -199,26 +187,21 @@ main {
   height: 50vw;
   background: url(../images/anxious_monster_small.jpeg) no-repeat center center / cover;
   position: relative;
-  max-width:300px;
-  max-height: 300px; 
+  max-width: 300px;
+  max-height: 300px;
   text-align: center;
 }
 
-
 #anxious-monster-greet {
-  /* get back: this background color will be removed in final version */
-  /* background-color: gray; */
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
-  /* height: 70vw; */
-  text-align: center; 
+  text-align: center;
 }
 
 #anxious-monster-greet p {
   line-height: 2;
 }
-
 
 #happy-monster {
   display: flex;
@@ -231,8 +214,8 @@ main {
   height: 50vw;
   background: url(../images/happy_monster_small.jpeg) no-repeat center center / cover;
   position: relative;
-  max-width:300px;
-  max-height: 300px; 
+  max-width: 300px;
+  max-height: 300px;
   text-align: center;
 }
 
@@ -241,9 +224,8 @@ main {
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
-  /* height: 70vw; */
   line-height: normal;
-  text-align: center; 
+  text-align: center;
 }
 
 #happy-monster-greet p {
@@ -253,7 +235,6 @@ main {
 #happy-monster-greet h3 {
   font-family: "Rock Salt", sans-serif;
   font-size: 100%;
-  /* text-transform: uppercase; */
   letter-spacing: 2px;
   line-height: 2;
 }
@@ -263,107 +244,81 @@ main {
   color: seagreen;
 }
 
-  /* ====================== */
-  /* CSS for fun facts page */
-  /* ====================== */
-  
-  #fun-fact-main {
-    margin-top: 120px;
-    margin-right: 10%;
-    margin-left: 10%;
-  }
+/* ====================== */
+/* CSS for fun facts page */
+/* ====================== */
 
-  /* path to page on website */
-  .path {
-    color: #807575;
-  }
+#fun-fact-main {
+  margin-top: 120px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
-  .path a {
-    color: #807575;
-    text-decoration: none;
-  }
+/* path to page on website */
+.path {
+  color: #807575;
+}
 
-  .fun-fact-h2 {
-    font-size: 120%;
-    line-height: 5;
-  }
+.path a {
+  color: #807575;
+  text-decoration: none;
+}
 
-  .keywords {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    justify-content: left;
-    margin-top: 30px;
-    flex-wrap: wrap;
-  }
+.fun-fact-h2 {
+  font-size: 120%;
+  line-height: 5;
+}
 
-  .keywords li {
-    list-style: none;
-    border: solid 1px seagreen;
-    border-radius: 20px;
-    padding: 7px;
-    width: fit-content;
-    font-size: smaller; 
-  }
+.keywords {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
 
-  #fun-fact-main p {
-    line-height: 2;
-    margin-bottom: 20px;
-  }
+.keywords li {
+  list-style: none;
+  border: solid 1px seagreen;
+  border-radius: 20px;
+  padding: 7px;
+  width: fit-content;
+  font-size: smaller;
+}
 
-  .green-color {
-    border: solid 2px seagreen;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-  }
+#fun-fact-main p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
 
-  .wiki-frame {
-    width: 80vw;
-    height: 80vw;
-    margin-bottom: 50px;
-  }
+.green-color {
+  border: solid 2px seagreen;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
 
-  /* ================ */
-  /* table formatting */
-  /* ================ */
+.wiki-frame {
+  width: 80vw;
+  height: 80vw;
+  margin-bottom: 50px;
+}
 
-  tr {
-    height: 50px;
-  }
-  th {
-    border: 1px solid black;
-    min-width: 70px;
-    text-align: center;
-  }	
-  
-  .table-header {
-    height: 40px;
-    text-align: center;
-  }
-  
-  td {
-  
-      border: 1px solid black;
-      text-align: center;
-  }
-  
+/* =============================== */
+/* CSS for page under construction */
+/* =============================== */
 
-  /* =============================== */
-  /* CSS for page under construction */
-  /* =============================== */
+#comeback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-  #comeback {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .come-back-image {
-    max-width: 100%;
-    height: auto;
-  }
+.come-back-image {
+  max-width: 100%;
+  height: auto;
+}
 
 /* ====================== */
 /* CSS for subscribe page */
@@ -404,10 +359,10 @@ select {
 
 input[type=text],
 input[type=email] {
-    height: 30px;
-    width: 50%;
-    padding-left: 10px;
-    margin: 10px 0;
+  height: 30px;
+  width: 50%;
+  padding-left: 10px;
+  margin: 10px 0;
 }
 
 .block-label {
@@ -449,7 +404,7 @@ input[type=reset] {
   padding: 0.75rem;
   background-color: white;
   color: seagreen;
-  border: solid 1px #3a3a3a ;
+  border: solid 1px #3a3a3a;
   border-radius: 5px;
   font-size: medium;
 }
@@ -474,7 +429,7 @@ input[type=reset] {
   width: 70%;
   margin-top: 30%;
   text-align: center;
-  color: white;    
+  color: white;
 }
 
 .landscape {
@@ -512,8 +467,8 @@ input[type=reset] {
 /* ====== */
 
 footer {
-background-color: gold;
-color: #3a3a3a;
+  background-color: gold;
+  color: #3a3a3a;
 }
 
 /* Below code is copied from CI's love-running walk through example */
@@ -533,7 +488,7 @@ color: #3a3a3a;
   /* margin-left: 30px; */
 }
 
-footer > p {
+footer>p {
   padding: 20px 0 10px 60px;
   text-align: left;
 }
@@ -542,18 +497,18 @@ footer > p {
   text-align: right;
   padding-right: 1em;
 }
-  
+
 footer div {
   font-size: smaller;
   color: seagreen;
   padding-top: 20px;
 }
-  
-  .bottom-line {
-    color: seagreen;
-    margin-top: -10px;
-    margin-bottom: 20px;
-  }
+
+.bottom-line {
+  color: seagreen;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
 
 /* ================================================== */
 /* Media query: tablets and larger (768px and higher) */
@@ -561,27 +516,27 @@ footer div {
 
 @media screen and (min-width: 768px) {
 
-h1 {
-  position: relative;
-  font-size: 160%;
-}
-  
-/* Header */
-nav {
-  display: block;
-  position: absolute;
-  box-shadow: none;
-  width: fit-content;
-  padding-right: 1rem;
-  width: 100%;
-}
+  h1 {
+    position: relative;
+    font-size: 160%;
+  }
+
+  /* Header */
+  nav {
+    display: block;
+    position: absolute;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    width: 100%;
+  }
 
   #menu {
     display: flex;
     padding-top: 20px;
   }
 
-  #menu > li {
+  #menu>li {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 95%;
@@ -596,82 +551,82 @@ nav {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 130px;
-}
+  }
 
-#stats-anxious-monster { 
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-  flex-direction: row;
-  margin-left: 20%;
-  margin-right: 20%;
-}
+  #stats-anxious-monster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
-#anxious-monster-greet {
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: normal;
-  text-align: center; 
-}
+  #anxious-monster-greet {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: normal;
+    text-align: center;
+  }
 
-#stats-happy-monster { 
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-  flex-direction: row;
-  margin-left: 20%;
-  margin-right: 20%;
-}
+  #stats-happy-monster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 
-#happy-monster-greet {
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: normal;
-  text-align: center; 
-  order: -1;
-}
+  #happy-monster-greet {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: normal;
+    text-align: center;
+    order: -1;
+  }
 
-/* fun facts page */
-#fun-fact-main {
-  margin-top: 160px;
-}
+  /* fun facts page */
+  #fun-fact-main {
+    margin-top: 160px;
+  }
 
-.wiki-frame {
-  width: 80vw;
-  height: 400px;
-  margin-bottom: 50px;
-}
+  .wiki-frame {
+    width: 80vw;
+    height: 400px;
+    margin-bottom: 50px;
+  }
 
-/* Subscribe page */
-#subscribe-form {
-  width: 700px;
-}
+  /* Subscribe page */
+  #subscribe-form {
+    width: 700px;
+  }
 
-/* Motivational poster */
-.portrait {
-  display: none;
-}
+  /* Motivational poster */
+  .portrait {
+    display: none;
+  }
 
-.landscape {
-  display: block;
-}
+  .landscape {
+    display: block;
+  }
 
-.motivational {
-  margin-left: 25%;
-  width: 50%;
-  margin-top: 4%;
-}
+  .motivational {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 4%;
+  }
 
-.motivational h1 {
-  font-size: 150%;
-  margin-top: 30px;
-  line-height: 1.5em;
-}
+  .motivational h1 {
+    font-size: 150%;
+    margin-top: 30px;
+    line-height: 1.5em;
+  }
 
-.motivational p {
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-}
+  .motivational p {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
 
   #social-networks {
     text-align: center;
@@ -689,21 +644,21 @@ nav {
     margin-left: 30px;
   }
 
-#project-detail-ci {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  flex-grow: 0;
-  gap: 10px;
-}
+  #project-detail-ci {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-grow: 0;
+    gap: 10px;
+  }
 
-#project-detail-mh {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  flex-grow: 0;
-  gap: 30px;
-}
+  #project-detail-mh {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    flex-grow: 0;
+    gap: 30px;
+  }
 }
 
 /* ======================================= */
@@ -712,44 +667,45 @@ nav {
 
 @media screen and (min-width: 992px) {
 
-  h1{
+  h1 {
     position: relative;
     font-size: 200%;
   }
-  
-  #menu > li {
+
+  #menu>li {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 100%;
   }
 
   #menu a:hover {
-  color: seagreen;
+    color: seagreen;
   }
 
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 150px;
   }
-  
+
   #anxious-monster-image:hover {
     background: url(../images/happy_monster.jpeg) no-repeat center center / cover;
   }
-  
+
   #happy-monster-greet a:hover {
-    color: rgb(228,0,124);
+    color: rgb(228, 0, 124);
   }
 
-/* fun facts page */
-#fun-fact-main {
-  margin-top: 200px;
-}
-
-footer div {
-  /* I thought pink goes well with yellow so I checked out difference shades of pink on 
-  https://html-color.codes/pink page */
-  color:  seagreen;
-  /* color: seagreen; */
- margin-right: 60px;
-}
+  /* fun facts page */
+  #fun-fact-main {
+    margin-top: 200px;
   }
+
+  .fun-fact-h2 {
+    font-size: 200%;
+  }
+
+  footer div {
+    color: seagreen;
+    margin-right: 60px;
+  }
+}
