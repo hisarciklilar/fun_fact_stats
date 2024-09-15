@@ -52,7 +52,7 @@ I aim to break the anxiety around learning statistics by
 
 ## Design
 
-### Colour Scheme
+### Color Scheme
 
 Colors with the following hex values are used in this website:
 
@@ -97,6 +97,14 @@ Below, I provide screenshots of some alternatives considered.
 ![](./media_readme/FFS_RockSalt.png)
 
 The last screenshot above is the font chosen for the header.
+
+### Wireframes
+
+- I mostly worked on paper-based wireframes as it was easier to draw quickly. 
+- 
+- I used Balsamiq to create the following wireframe. This respresents the initial idea of having a fun facts page with a multiple list of fun fact stories (also explained in the features section below), later to be directed to a more detailed page about a single story on click. 
+   
+![](./media_readme/Wireframe.png)
 
 ## Features 
 
@@ -256,6 +264,8 @@ The initial accessibility score was 86%. I followed the steps below to increase 
 
 ### Manual Testing
 
+I checked the responsiveness and overall look of the pages in multiple gadgets, using different operating systems manually. I also used Google Developer Tools intensively. 
+
 #### Navigation Bar 
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
@@ -362,6 +372,8 @@ The initial accessibility score was 86%. I followed the steps below to increase 
 
 ## Acknowledgements
 
-I extend my thanks to my mentor Matt Bodden, for the information and guidance that he provided during our mentoring sessions. My conversations with him helped to shape this website and more importantly, to resolve some issues that I faced while working on the project.   
+I extend my thanks to my mentor Matt Bodden, for the information and guidance that he provided during our mentoring sessions. My conversations with him helped to shape this website and more importantly, to resolve some issues that I faced while working on the project. 
+
+I thank my partner Robert Riegler who kept testing the pages as I worked on them using his own gadgets. This allowed me to perform the tests on different brands of electronic gadgets and different operating systems.  
   
 
