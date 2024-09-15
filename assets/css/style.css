@@ -307,6 +307,19 @@ main {
   margin-bottom: 50px;
 }
 
+.video-frame {
+  width: 80vw;
+  height: auto;
+}
+
+.video-frame-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  margin-bottom: 50px;
+}
+
 /* =============================== */
 /* CSS for page under construction */
 /* =============================== */
@@ -597,6 +610,11 @@ footer div {
     width: 80vw;
     height: 400px;
     margin-bottom: 50px;
+  }
+
+  .video-frame {
+    width: 400px;
+    height: 300px;
   }
 
   /* Subscribe page */
