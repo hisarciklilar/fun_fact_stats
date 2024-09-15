@@ -3,13 +3,7 @@ title: "Fun Fact Stats"
 author: Mehtap Hisarciklilar 
 date: September, 2024
 ---
-<style>
-gr { color: green }
-red { color: red }
-</style>
 
-
-<gr> Notes to myself - to be deleted in final submission</gr>
 
 ![](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
@@ -194,6 +188,8 @@ Image response to hovering
 
 - Adding labels to all form elements to ensure full accessibility (at the moment, there are some accessibility issues related to that). 
 
+- Removing the Wikipedia iframe and inserting a more direct search field in the text because reading is not very easy within the iframe, in particular on smaller screens. 
+
 ## Testing 
 
 ### Validation of Code
@@ -291,89 +287,41 @@ The initial accessibility score was 86%. I followed the steps below to increase 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsiveness of the text and the iframe | Text enlarge or contract without any formatting issues depending on the screen size   | Multiple screen sizes and operating systems | Text contract on mobiles and tablets and expand on laptops and desktops without creating a messy layout. All text can be read easily in all screen sizes.   | Pass |
 | Links to external pages | Links to external pages open on a new page | Multiple screen sizes and operating systems | Links to external pages open on a new page | Pass |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
- -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
+| Functioning iframe | The search field of Wikipedia page works on the iframe | Multiple screen sizes and operating systems  | One can enter search phrases and get results in the Wikipedia iframe | Pass |
 
 
-To write up the tests you can use a table,
+#### Form on the Subscribe Page
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
- -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-
-To write up the tests you can use a table,
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
- -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-
-To write up the tests you can use a table,
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
- -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here |
-
-
-
-
-
-You should have tests for every section of every page.. individually.
+| Form responses recorded | Users are directed to a thank you page on completion of the form | Multiple screen sizes and operating systems | Users are directed to a thank you page within the site (otherwise hidden from users) once they complete the required fields on the form | Pass |
+| Form warning the users when details are missing | Form not submitting and providing a helpful text for readers when they skip the required fields | Multiple screen sizes and operating systems | Form does not submit and shows a message when (i) name or surname are missing (ii) email text does not include an @ sign, (iii) age is not selected, or (iv) contact permission is left without a response | Pass |
+| Functioning subscribe button  | Pressing the subscribe button submits the completed form   | Multiple screen sizes and operating systems  | Pressing the subscribe button submits the completed form and takes the user to a thank you page | Pass |
+| Functioning reset button  | Pressing the reset button clears the form without submitting information  | Multiple screen sizes and operating systems  | Pressing the reset button clears the form without submitting information | Pass |
 
 ## Credits
 
-- The following fonts are obtained from [Google Fonts](https://fonts.google.com). 
+### Favicon
 
-- The icons used for Social media links <gr> and the arrow key on page xx are </gr> obtianed from [Font Awesome](https://fontawesome.com/).
-
-- Compressing images for uploads: 
-
-  - [tinyjpg](https://tinyjpg.com)
+- Favicon is created from a png file using  [https://favicon.io/](https://favicon.io/). The picture file used is created by me on my tablet. 
   
-- GitHub Terminal commands I needed during my work on the project:
-  - [GitHub Guides](https://github.com/git-guides)
-- Understanding the source of issues that I encountered and solutions provided to fix them: 
-  - [GitHub Guides](https://github.com/git-guides)
-  - [Stack overflow](https://stackoverflow.com)
-      - To solve the issue of a connection failure, Pawel Trojanski suggested to increase buffer size by using `git config http.postBuffer 524288000`. Available from [https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se](https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se) [Accessed 13 September 2024]
-      
-- Favicon is created from a png file using  [https://favicon.io/](https://favicon.io/). The picture file used is created by me on my tablet. - The favicon code on the head are copied from two sources: 
+-  The code on the head of the html files to insert favicon are copied from two sources: 
   - Love running walkthrough example
   - [How to Add a Favicon in HTML: Your Easy Step-by-Step Guide](https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/) by Cristian G. Guasch. [Accessed 13 September 2024]  
   
+
 ### Fonts
 
 - Text-based fonts used in this project are downloaded from [Google Fonts](http://fonts.google.com). 
 
-- The social media symbols used are from [Font Awesome](https://fontawesome.com/).
+- The social media and other symbols used on pages are from [Font Awesome](https://fontawesome.com/).
+   
+### Images
 
-### Font Color
+- Monster images are obtained from [iStock](https://www.istockphoto.com) 
 
-- I used the [Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.9/color-contrast) to find the right replacement for the colors that failed the contrast test during Lighthouse checks. 
+- [tinyjpg](https://tinyjpg.com) platform is used for compressing images for uploads
+  
+- My mentor Matt Bodden's advice over resizing photos resolved issues for the design 
 
 ### Hidden images
 
@@ -383,12 +331,28 @@ You should have tests for every section of every page.. individually.
 
 - The idea of image swapping with a media query is taken from [jmore009's post on stack overflow](https://stackoverflow.com/questions/27853884/media-queries-and-image-swapping) [Accessed on 12 September 2024]. 
 
+### Coding-related
+
+-  I used [GitHub Guides](https://github.com/git-guides) to read about GitHub terminal commands I needed during my work on the project:
+  
+- I used the following pages to help me understand the source of issues that I encountered and how to fix them: 
+  - [GitHub Guides](https://github.com/git-guides)
+  - [Stack overflow](https://stackoverflow.com)
+      - To solve the issue of a connection failure, Pawel Trojanski suggested to increase buffer size by using `git config http.postBuffer 524288000`. Available from [https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se](https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se) [Accessed 13 September 2024]
+      
+### Font Color
+
+- I used the [Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.9/color-contrast) to find the right replacement for the colors that failed the contrast test during Lighthouse checks. 
+
+
 ### Form
 
-- The examples provided in the love-running walkthrough example and the Coders Coffeehouse pages were very helpful. I changed these and applied my own coding, but I learned a lot from these examples durind the process. 
+- The examples provided in the love-running walkthrough example and the Coders Coffeehouse pages were very helpful. I changed these and applied my own coding, but I learned a lot from these examples during the process. 
 
 - The checkbox margins are set using the post by [Suraj Parise's post on stack overflow](https://stackoverflow.com/questions/54003551/how-to-do-the-spacing-between-checkboxes-and-values) [Accessed on 14 September 2024].
 
+- I read about the HTML select form attribute on [W3 Schools](https://www.w3schools.com/tags/att_select_form.asp) [Accessed on 14 September 2024]
+  
 - I got the idea of directing the form response to a "thank you for subscribing"" page from my mentor, Matt Bodden.
 
 ### Code formatting
