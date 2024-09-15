@@ -30,7 +30,9 @@ This website aims to show the learners and users of statistical methods the fun 
   
 The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
 
-<gr> Add a screenshot of responsiveness</gr>
+![](./media_readme/Response_1.png)
+
+![](./media_readme/Response_2.png)
 
 ## User Experience
 
@@ -71,14 +73,38 @@ A darker tone of gray had to be used in fun facts pages, again, to ensure suffic
 
 Please see below for color change details. 
 
-### Typography
-### Imagery
-### Wireframes
-### Figma/Full color mockup if produced
+### Fonts
+
+The following fonts are used:  
+
+- "Lexend" for the body and footer text. "Lexend" is chosen for the main text because a small scale study has shown that people can read and understand more easily when this font style is used. I have been using this font in documents that I produce for my students (in my professional role). 
+
+- "Happy Monkey" for headings level 2 and higher. I found this font after a search on keywords "smile", "fun", and "happy" on Google Fonts. Since the page is aiming to the "fun", a font style that would give that effect was preferred. Like "Lexend", "Happy Monkey" is also easy to read, and it is  "fun". It also matches the font style I use for the header ("Rock Salt") 
+
+- "Rock Salt" for heading level 1 (which is the main header of the wage). Choosing the font style for header was the most difficult. Since it serves as the logo to the page, it takes an important role.
+
+- "Jost" for motivational poster page
+
+
+#### Fonts for the Header
+
+I tried alternative fonts for the header. Because the page targets students and aims to help them feel more comfortable with statistics, I wanted the header to be fun and dynamic. 
+
+Below, I provide screenshots of some alternatives considered. 
+
+![](./media_readme/FFS_Unkempt.png)
+
+![](./media_readme/FFS_GreatVibes.png)
+
+![](./media_readme/FFS_GloriaHallelujah.png)
+
+![](./media_readme/FFS_Smile.png)
+
+![](./media_readme/FFS_RockSalt.png)
+
+The last screenshot above is the font chosen for the header.
 
 ## Features 
-
-<gr> In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. </gr>
 
 ### Existing Features
 
@@ -86,7 +112,9 @@ Please see below for color change details.
 
 - The normal distribution is chosen as the favicon for this website due to its simplicity, allowing for an easy recognition even when it is tiny. 
 
-- The area under the normal diustribution curve is shaded in red to introduce a greater contrast with the white background and also it is the same color as the "anxious" statistics monster.
+- The area under the normal distribution curve is shaded in red to introduce a greater contrast with the white background and also it is the same color as the "anxious" statistics monster.
+
+![](./media_readme/Features_favicon.png)
 
 #### Navigation Bar
 
@@ -98,50 +126,20 @@ Please see below for color change details.
 
 - The navigation links open on the same page, except "Feeling overwhelmed?", which opens on a new page. This is because the latter is designed to be an impactful motivational poster, free of any header or footer items. 
 
-#### Fonts
-
-The following fonts are used:  
-
-- "Lexend" for the body and footer text. "Lexend" is chosen for the main text because a small scale study has shown that people can read and understand more easily when this font style is used. I have been using this font in documents that I produce for my students (in my professional role). 
-
-- "Happy Monkey" for headings level 2 and higher. I found this font after a search on keywords "smile", "fun", and "happy" on Google Fonts. Since the page is aiming to the "fun", a font style that would give that effect was preferred. Like "Lexend", "Happy Monkey" is also easy to read, and it is  "fun". It also matches the font style I use for the header ("Rock Salt") 
-
-- "Rock Salt" for heading level 1 (which is the main header of the wage). Choosing the font style for header was the most difficult. Since it serves as the logo to the page, it takes an important role. <gr> I wanted .... it to read easily...  </gr>
-
-- "Jost" for motivational poster page
-
-A few alternative options were considered for the header. 
-
-#### Fonts for the Header
-
-<gr> I have tried alternative logos and fonts for the header. Because the page targets students and aims to help them get familiar with Statistics *help them like statistics), I wanted the header to be fun. (Check  the notes you wrote on notebook) </gr>
-
-Below, I provide screenshots of some alternatives considered. 
-
-- Google Fonts 
-
-![](./media_readme/FFS_Unkempt.png)
-
-![](./media_readme/FFS_GreatVibes.png)
-
-![](./media_readme/FFS_GloriaHallelujah.png)
-
-![](./media_readme/FFS_RockSalt.png)
-
-![](./media_readme/FFS_Smile.png)
-
-<gr>
-- The webpage that I used
-The webpage did in fact produce something very close to what I wanted. Also, I managed to align the fonts so that they resemble (to follow) a normal distribution. But I dis not use this in the end, because the text was created as a link to an image, which was not as practical as working with fonts and text.  
-</gr>
 
 #### Landing page
 
 - Landing page includes images of two cute fluffy monsters. 
   - The grumpy-looking red monster (anxious monster) represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
-  - The fluffy blue monster with a smiling face (happy monster) is the real identity of statistics: fun, playful, and <gr> xxx/>
+  - The fluffy blue monster with a smiling face (happy monster) is the real identity of statistics: fun, playful, and engaging
 
 - I wanted the user to see the "real" face of the statistics monster by somehow changing the look of the anxious monster to a happy monster. With the limitations of the html and css, I did this using hoover style. In large screens, hoovering over the anxious monster reveals the real face of it: the happy monster.   
+
+Image on site as it appears
+![](./media_readme/Real_Face_1.png)
+
+Image response to hovering
+![](./media_readme/Real_Face_2.png)
 
 - Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
 
@@ -157,24 +155,21 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - This page aims to show learners of statistics some interesting facts about statistics by revealing where (or under which circumstances) the most commonly used statistical concepts originate from. 
 
-- At the moment, there is a single story under this page. The intention is  to develop it further, adding more interesting facts over time. In that case, the "fun facts" page will have a list of topics and links to corresponding pages while each fun-fact story will be provided in a different page. 
+- At the moment, there is a single story under this page. The intention is  to develop it further, adding more interesting facts over time. In that case, the "fun facts" page will have a list of fun fact stories and links to corresponding pages while each fun-fact story will be provided on a different page. 
 
 - Considering the structure described above, the top of the page starts with an informative path to the page (please note that at the moment "fun facts" page is the same as the "lady tasting tea" page, but this will change as more stories are added.)
 
-- Below the path, there is a set of keywords that the fun fact story covers. This will help the users to relate the story with the statistical concepts. 
+- Below the path, there is a set of keywords that the fun fact story covers. This will help the users to relate the story with the statistical concepts. These can later be used to introduce a search feature on the site.
 
- 
-
- 
 #### Fun stats page
 
-- There is a placeholder for this page on the website but the currently the only content is an under-construction-type image. 
+- There is a placeholder for this page on the website but currently the only content is an under-construction-type image. 
 
 - To encourage users to come back to the page, brief information is provided with text "stats game under construction" rather than a general message (which may become very discouraging). 
 
 - It will be an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress. 
 
-- It will achive the above objective by creation of a simple interactive statistics game.
+- It will achieve the above objective by creation of a simple interactive statistics game.
 
 #### Motivational poster page
 
@@ -197,13 +192,13 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - Addition of a search button for users to search for relevant concepts
 
-- Adding labels to all form elements to ensure full accessibility. 
+- Adding labels to all form elements to ensure full accessibility (at the moment, there are some accessibility issues related to that). 
 
 ## Testing 
 
 ### Validation of Code
 
-For html files, I used the [W3C HTML Validator](https://validator.w3.org/#validate_by_input) and for the cc file, I used  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+For HTML files, I used the [W3C HTML Validator](https://validator.w3.org/#validate_by_input) and for the CSS file, I used  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 - All three html pages (landing page, fun facts page, subscribe page) are without errors
 
@@ -262,23 +257,90 @@ The initial accessibility score was 86%. I followed the steps below to increase 
 
   ![](./media_readme/Accessibility_subscribe.png)
   
-### Wave Webaim - accessibility testing
-You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
 
 ### Manual Testing
 
-You need to perform, and document everything you did to manually test your site.
-At a minimum - you need to check every link on every page works as intended.
-So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
-Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
-You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
+#### Navigation Bar 
 
-Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Nav bar item links   | Loads corresponding page | Multiple screen sizes & operating systems | Corresponding page loads | Pass |
+| Responsiveness of the nav bar  | Nav bar opens as drop down after clicking on toggle in phones | Mobile phones, iOS and Android  | Nav bar opens as drop down after clicking on toggle in phones | Pass |
+| Active page marked on nav bar | Active page marked with shadow on large screens| Tablets, laptops and desktops; different operating systems | Active page is marked with a visible shadow on nav bar | Pass |
+| Highlighted nav bar items on hover on large screens| Nav bar items respond when user hovers over text  | Laptops and desktops; different operating systems | Nav bar items change color when user hovers over them | Pass |
+
+
+#### Footer 
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsiveness of social media links  | Social media links spread over the line on mobile and tablet screens; remain on left of the page on larger screens with sufficient gap between them | Multiple screen sizes and operating systems | Social media links spread over the line on mobile and tablet screens; remain on left of the page on larger screens with sufficient gap between them | Pass |
+| Responsiveness of informatory text on bottom right  | Each item of the informatory text at the bottom right is on a separate line on mobile screens (4 separate lines); two lines merge under two separate lines on tablets and larger screens; all aligned right with some small margins| Multiple screen sizes and operating systems  | Each item of the informatory text at the bottom right is on a separate line on mobile screens (4 separate lines); two lines merge under two separate lines on tablets and larger screens; all aligned right with some small margins | Pass |
+
+#### Body of the Landing Page
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsiveness of text and images  | On mobile  screens, images of two monsters appear vertically aligned while text is spread over, in between and below images; on tablet and larger screens, anxious monster is on the left of the screen while happy monster is on the right, each have corresponding text next to them | Multiple screen sizes & operating systems | On mobile  screens, images of two monsters appear vertically aligned while text is spread over, in between and below images; on tablet and larger screens, anxious monster is on the left of the screen while happy monster is on the right, each have corresponding text next to them| Pass |
+| Anxious monster respond on hover | Anxious monster turns into a happy monster on hover on laptops or larger screens | Laptops and desktops, different operating systems  | Anxious monster turns into a happy monster on hover on laptops or larger screens | Pass |
+| Links to website pages through text on the left of happy monster | Corresponding website pages load after a click or a touch on the following words: fun, engaging, playful, stronger | Mobiles, tablets, laptops and desktops| The link on "fun" loads "fun facts" page; "engaging" loads "subscribe" page; "playful" loads "fun stats" page; "stronger" opens a motivational poster on a new page; all of these happen after a touch on mobiles and tablets, and after a click on laptop and desktops  | Pass |
+| Response of links on hover  | On laptops and desktops, the linked words described above respond to hover  by changing color | Laptops and Desktops; different operating systems  | On laptops and desktops, the linked words described above respond to hover  by changing color to pink | Pass |
+
+#### Body of the Fun Facts Page
+
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| Responsiveness of the text and the iframe | Text enlarge or contract without any formatting issues depending on the screen size   | Multiple screen sizes and operating systems | Text contract on mobiles and tablets and expand on laptops and desktops without creating a messy layout. All text can be read easily in all screen sizes.   | Pass |
+| Links to external pages | Links to external pages open on a new page | Multiple screen sizes and operating systems | Links to external pages open on a new page | Pass |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+ -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+
 
 To write up the tests you can use a table,
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here | <- duplicate this line for each line you need
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+ -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+
+To write up the tests you can use a table,
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+ -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+
+To write up the tests you can use a table,
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+ -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here |
+
+
+
+
 
 You should have tests for every section of every page.. individually.
 
