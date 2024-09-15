@@ -26,7 +26,7 @@ This website aims to show the learners and users of statistical methods the fun 
   
 2. Designing online games starting from the very basic and advancing further as understanding improves.
 
-  Although this is integrated into the design, and a placeholder navigatikon item annd a page is included, this will not be actioned within this project. 
+  Although this is integrated into the design, and a placeholder navigation item and a page is included, this will not be included in the checks provided below. 
   
 The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
 
@@ -41,27 +41,35 @@ The target audience for this website are UG students, although anybody who is in
 Users of the website expect the following: 
 
 - Be familiar with the page design in term of the placement of the navigation bar items, the social media links, etc. 
-- Navigate around the site easily without having the need to search for things.
+- Navigate around the site easily without frustration.
 - Easily read and understand  the information provided in the pages. 
 - Can see clearly which statistical concept the fun fact story relates to.
-
+  
 ### Site Owner's Goals
 
 I aim to break the anxiety around learning statistics by 
 
 - creating a warm, welcoming page 
 - providing users with examples and stories that they can relate to 
-- creating a statistics game to help users learn new concepts they as progress (please note this is a plan for a longer time period; it is not covered within these pages)
+- creating a positive environment around the use of statistics
+- creating a statistics game to help users learn new concepts they as progress (please note this is a plan for a longer time period; it is not covered within this project)
 
 ## Design
+
 ### Colour Scheme
 
-RGB hex values of the colors used in this website:
+Colors with the following hex values are used in this website:
 
 - #ffd700 (named color: gold)
 - #2e8b57 (named color: seagreen)
 - #3a3a3a;
 - #808080 (name color: gray)
+
+The tone for the seagreen had to be changed in some parts to a slightly darker version to ensure sufficient contrast. 
+
+A darker tone of gray had to be used in fun facts pages, again, to ensure sufficient contrast. 
+
+Please see below for color change details. 
 
 ### Typography
 ### Imagery

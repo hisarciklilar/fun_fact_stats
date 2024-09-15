@@ -258,6 +258,7 @@ main {
 /* path to page on website */
 .path {
   color: #554E4E;
+  font-size: 90%;
 }
 
 .path a {
