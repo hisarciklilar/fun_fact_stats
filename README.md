@@ -252,6 +252,10 @@ The initial accessibility score was 90%. I followed the steps below to increase 
 
   ![](./media_readme/Accessibility_fun_facts.png)
 
+- __Just before submission__, I saw on the checklist for submission a video or an audio embed as one of the requirements. The accessibility score did not change after adding the video frame, but it lowered down the "best practices" score due to high amount of cookies. Below is a screenshot
+
+  ![](./media_readme/Accessibility_fun_facts_v2.png)
+
 #### Subscribe Page
 
 The initial accessibility score was 86%. I followed the steps below to increase it to 91%:
@@ -297,7 +301,8 @@ I checked the responsiveness and overall look of the pages in multiple gadgets, 
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
 | Responsiveness of the text and the iframe | Text enlarge or contract without any formatting issues depending on the screen size   | Multiple screen sizes and operating systems | Text contract on mobiles and tablets and expand on laptops and desktops without creating a messy layout. All text can be read easily in all screen sizes.   | Pass |
 | Links to external pages | Links to external pages open on a new page | Multiple screen sizes and operating systems | Links to external pages open on a new page | Pass |
-| Functioning iframe | The search field of Wikipedia page works on the iframe | Multiple screen sizes and operating systems  | One can enter search phrases and get results in the Wikipedia iframe | Pass |
+| Functioning YouTube iframe | YouTube video plays on demand | Multiple screen sizes and operating systems  | YouTube video plays on demand  | Pass |
+| Functioning wikipedia iframe | The search field of Wikipedia page works on the iframe | Multiple screen sizes and operating systems  | One can enter search phrases and get results in the Wikipedia iframe | Pass |
 
 
 #### Form on the Subscribe Page
@@ -349,7 +354,7 @@ I checked the responsiveness and overall look of the pages in multiple gadgets, 
   - [GitHub Guides](https://github.com/git-guides)
   - [Stack overflow](https://stackoverflow.com)
       - To solve the issue of a connection failure, Pawel Trojanski suggested to increase buffer size by using `git config http.postBuffer 524288000`. Available from [https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se](https://stackoverflow.com/questions/77856025/git-error-rpc-failed-http-400-curl-22-the-requested-url-returned-error-400-se) [Accessed 13 September 2024]
-      
+- The YouTube video refused to play when I included the video url on fun facts page. I resolved the issue by  making a change in the video address following the suggestion of [camperbot](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) on [freeCodeCamp](https://forum.freecodecamp.org/) [Accessed on 15 September 2024].
 ### Font Color
 
 - I used the [Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.9/color-contrast) to find the right replacement for the colors that failed the contrast test during Lighthouse checks. 
