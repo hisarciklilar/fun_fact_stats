@@ -8,7 +8,6 @@ gr { color: green }
 red { color: red }
 </style>
 
-<red> Information sources to the organised and presented in the final version </red>
 
 <gr> Notes to myself - to be deleted in final submission</gr>
 
@@ -121,9 +120,6 @@ Below, I provide screenshots of some alternatives considered.
 
 ![](./media_readme/FFS_RockSalt.png)
 
-
-
-
 ![](./media_readme/FFS_Smile.png)
 
 <gr>
@@ -193,17 +189,90 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - Addition of a search button for users to search for relevant concepts
 
+- Adding labels to all form elements to ensure full accessibility. 
+
 ## Testing 
 
+### Validation of Code
 
-## Problems faced
+For html files, I used the [W3C HTML Validator](https://validator.w3.org/#validate_by_input) and for the cc file, I used  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-- (8 September 2024) I created my project repository on 7 September 2024. I worked on the `index.html`, `style.css` and  did a few commits locally, but when I attempted to push all these changes to GitHub, I realized that there was an issue with the file locations. I kept receiving error messages and failed to push my changes to GitHub. To my understanding, this happened because when I was cloning the GitHub repository initially, I did it wrong. I initially created a folder in the same name as the repository and then attempted a clone, which created a directory within the directory, both with the same name. Seeing this, I moved files around so that I do not have folder within a folder locally, but all files are located under the main folder. I think this  change in file structures created the issue. To ensure that I do not  have similar issues, I created a trial repository from scratch, did a few changes and pushes. After seeing that it works, I deleted my initial project repository from my workspace and then re-started everything again.
+- All three html pages (landing page, fun facts page, subscribe page) are without errors
 
-- In the new repository, I managed to push changes at start but then started to have problems when committing. The commits did not go through. In some cases, I could see the commit but the `index.html` file appeared as "empty" while in some other cases, the commit did not show at all! I created one new repository after another, thinking restarting from scratch would help. It did not. I think various things were going wrong at the same time, which led me to fail over and over. I think one of these problems is me, not fully understanding the terminal connection to GitHub well enough. I was wrongly assuming that the terminal connection to alternative repositories change automatiocally when I change the local folder, where I cloned these repositories. 
+- The css file is without error. There is one warning about the "Jost" Google font import.
 
-- Another issue is that, the changes I make on the file locally do not appear in `git status` as changes unless I save them. I am working with VS Code. It would save my changes automatically, and the setting is still set for an automatic save. But for some reason, the automatic save is not working. Because I did not realise this, I could not see any changes to commit, even when I made changes in the files. This resulted with me not being able to update my repository. I now manually save the files (rather than relying on automatic save), which allows git to see the changes and commit. 
+#### Landing Page
 
+![](./media_readme/W3C_Validator_index.png)
+    
+#### Fun Facts page
+
+![](./media_readme/W3C_Validator_fun_facts.png)
+
+#### Subscribe page
+
+![](./media_readme/W3C_Validator_subscribe.png)
+    
+#### CSS code
+  
+![](./media_readme/W3C_Validator_css.png)
+  
+
+![](./media_readme/W3C_Validator_csswarning.png)
+    
+    
+### Lighthouse
+
+#### Landing Page
+
+My index page had an accessibility score of 85%. I followed the steps below to increase it to 100%: 
+
+- I changed the seagreen color that I used for linked text under the happy monster image into #20643F, which provides a better contrast with the white background. 
+- I increased the font size for the above-mentioned links
+- I changed the color of the text at the very bottom of the footer to a darker color (#154229)
+- I added aria-label link text to the links below the happy monster mentioned above
+- I added aria-label link text to the links in the navigation bar items 
+
+    ![](./media_readme/Accessibility_index.png)
+
+#### Fun Facts Page
+
+The initial accessibility score was 90%. I followed the steps below to increase it to 100%:
+
+- The path to the page I provided at the top of the fun facts page was in color #807575. This did not provide enough contract. I changed it to #554E4E. 
+
+- I added a title to the Wikipedia iframe.
+
+  ![](./media_readme/Accessibility_fun_facts.png)
+
+#### Subscribe Page
+
+The initial accessibility score was 86%. I followed the steps below to increase it to 91%:
+
+- To obtain sufficient contrast, I changed seagreen color on the submit and reset buttons to #21643E
+- I added aria-label and aria-labelby texts to form elements, but I there are still a couple of labels to be added. I will need to read about how to do those before I could make a change. 
+
+  ![](./media_readme/Accessibility_subscribe.png)
+  
+### Wave Webaim - accessibility testing
+You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
+
+### Manual Testing
+
+You need to perform, and document everything you did to manually test your site.
+At a minimum - you need to check every link on every page works as intended.
+So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
+Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
+You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
+
+Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
+
+To write up the tests you can use a table,
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here | <- duplicate this line for each line you need
+
+You should have tests for every section of every page.. individually.
 
 ## Credits
 
@@ -232,6 +301,10 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 - The social media symbols used are from [Font Awesome](https://fontawesome.com/).
 
+### Font Color
+
+- I used the [Color Contrast Analyzer](https://dequeuniversity.com/rules/axe/4.9/color-contrast) to find the right replacement for the colors that failed the contrast test during Lighthouse checks. 
+
 ### Hidden images
 
 - The idea of using hidden images to be able to use alt text is taken from Oliver Hall's explanation on Content Forest: [Question: How to add alt text for a background image in HTML/CSS?](https://contentforest.com/faq/how-to-add-alt-text-for-background-image). I used the example code provided there. [Accessed on 12 September 2024]
@@ -250,10 +323,11 @@ The webpage did in fact produce something very close to what I wanted. Also, I m
 
 ### Code formatting
 
-- I used VS Code's "Prettier Code Formatting" extension to format the html and css code.
+- I used VS Code's "Prettier Code Formatting" extension to finalise the formatting of the html code.
+- I used VS Code's "Beautify" css formatting extension to finalise the formatting of the css code. 
 
 ## Acknowledgements
 
-I extend my thanks to my mentor Matt Bodden, for the help and information that he provided during our mentoring sessions. My conversations with him helped to shape this website and more importantly, to resolve some issues that I faced while working on the project.   
+I extend my thanks to my mentor Matt Bodden, for the information and guidance that he provided during our mentoring sessions. My conversations with him helped to shape this website and more importantly, to resolve some issues that I faced while working on the project.   
   
 

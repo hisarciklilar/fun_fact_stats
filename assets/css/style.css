@@ -220,7 +220,6 @@ main {
 }
 
 #happy-monster-greet {
-  /* background-color: gray; */
   width: 50vw;
   margin-left: 25%;
   margin-right: 25%;
@@ -234,14 +233,16 @@ main {
 
 #happy-monster-greet h3 {
   font-family: "Rock Salt", sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   letter-spacing: 2px;
   line-height: 2;
 }
 
 .no-decoration {
   text-decoration: none;
-  color: seagreen;
+  color: #20643F;
+  font-size: 120%;
+  font-family: "Rock Salt", sans-serif;
 }
 
 /* ====================== */
@@ -256,11 +257,11 @@ main {
 
 /* path to page on website */
 .path {
-  color: #807575;
+  color: #554E4E;
 }
 
 .path a {
-  color: #807575;
+  color: #554E4E;
   text-decoration: none;
 }
 
@@ -390,7 +391,7 @@ input[type=submit] {
   margin-top: 40px;
   margin-left: 0.75rem;
   padding: 0.75rem;
-  background-color: seagreen;
+  background-color: #21643E;
   color: white;
   border: solid 1px #3a3a3a;
   border-radius: 5px;
@@ -403,7 +404,7 @@ input[type=reset] {
   margin-left: 0.75rem;
   padding: 0.75rem;
   background-color: white;
-  color: seagreen;
+  color: #21643E;
   border: solid 1px #3a3a3a;
   border-radius: 5px;
   font-size: medium;
@@ -500,12 +501,12 @@ footer>p {
 
 footer div {
   font-size: smaller;
-  color: seagreen;
+  color: #154229;
   padding-top: 20px;
 }
 
 .bottom-line {
-  color: seagreen;
+  color: #154229;
   margin-top: -10px;
   margin-bottom: 20px;
 }
