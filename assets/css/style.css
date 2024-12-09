@@ -324,6 +324,11 @@ main {
 /* CSS for page under construction */
 /* =============================== */
 
+.fun-stats-h2 {
+  font-size: 120%;
+  margin-bottom: 50px;
+}
+
 #comeback {
   display: flex;
   align-items: center;
@@ -564,7 +569,6 @@ footer div {
 
   /* Main content */
   main {
-    /* Push main content down to accommodate larger header */
     margin-top: 130px;
   }
 
@@ -727,5 +731,16 @@ footer div {
   footer div {
     color: seagreen;
     margin-right: 60px;
+  }
+
+  /* fun stats page */
+  .fun-stats-h2 {
+    font-size: 170%;
+    margin-bottom: 10px;
+  }
+
+  .come-back-image {
+    max-height: 50vh;
+    width: auto;
   }
 }
