@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- ==== -->
-  <!-- HEAD -->
-  <!-- ==== -->
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,8 +14,10 @@
     />
     <meta name="author" content="Mehtap Hisarciklilar" />
     <!-- Favicon -->
-    <!-- Following line is copied from https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/ -->
+    <!-- Following lines are copied from https://www.html-easy.com/learn/how-to-add-a-favicon-in-html/ -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- For Chrome on Android -->
+    <link rel="shortcut icon" href="favicon.ico" />
     <!-- Following 3 lines are copied from love-running walkthrough example -->
     <link
       rel="apple-touch-icon"
@@ -45,24 +43,24 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-
   <body>
     <header>
       <a href="./index.html">
         <h1>Fun Fact Stats</h1>
       </a>
+
       <!-- Below is to add navbar items as a dropdown list on mobile phones. -->
       <!-- Code for input is copied from CI love-running walkthrough example -->
       <input type="checkbox" name="nav-toggle" id="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
       <!-- Navigation items -->
       <nav>
         <ul id="menu">
-          <li><a href="./index.html" class="active">Home</a></li>
-          <li><a href="./funfacts.html">Fun Facts</a></li>
-          <li><a href="./funstats.html">Fun Stats</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./fun_facts.html">Fun Facts</a></li>
+          <li><a href="./fun_stats.html" class="active">Fun Stats</a></li>
           <li><a href="./subscribe.html">Subscribe</a></li>
           <li>
             <a href="./motivational.html" target="_blank"
@@ -74,9 +72,13 @@
     </header>
 
     <main>
-      <section class="thanks">
-        <h2>Thank you for subscribing!</h2>
-      </section>
+      <div id="comeback">
+        <img
+          src="./assets/images/comeback2.png"
+          alt="a cute green monster with big eyes holding a sign for page under construction"
+          class="come-back-image"
+        />
+      </div>
     </main>
 
     <footer>
@@ -144,11 +146,6 @@
           </a>
         </li>
       </ul>
-
-      <!-- ===== -->
-      <!-- Notes -->
-      <!-- ===== -->
-
       <div class="align-right" id="project-detail-ci">
         <p>Code Institute</p>
         <p>Diploma in Full Stack Software Development</p>
