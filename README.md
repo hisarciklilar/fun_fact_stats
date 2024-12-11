@@ -21,9 +21,9 @@ This website aims to show the learners and users of statistical methods the fun 
   
 2. Designing online games starting from the very basic and advancing further as understanding improves.
 
-  Although this is integrated into the design, and a placeholder navigation item and a page is included, this will not be included in the checks provided below. 
+  Although this is integrated into the design, and a placeholder navigation item and a page is included, this will not be included in the checks provided below.
   
-The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged. 
+The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged.
 
 ![Website mockup for different screen sizes](./media_readme/Response_1.png)
 
@@ -84,7 +84,7 @@ The following fonts are used:
 
 I tried alternative fonts for the header. Because the page targets students and aims to help them feel more comfortable with statistics, I wanted the header to be fun and dynamic.
 
-Below, I provide screenshots of some alternatives considered. 
+Below, I provide screenshots of some alternatives considered.
 
 ![Website heading in font Unkempt](./media_readme/FFS_Unkempt.png)
 
@@ -128,11 +128,10 @@ The last screenshot above is the font chosen for the header.
 
 - The navigation links open on the same page, except "Feeling overwhelmed?", which opens on a new page. This is because the latter is designed to be an impactful motivational poster, free of any header or footer items.
 
-
 #### Landing page
 
 - Landing page includes images of two cute fluffy monsters.
-  - The grumpy-looking red monster (anxious monster) represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not. 
+  - The grumpy-looking red monster (anxious monster) represents the anxiety around statistics and how people perceive it to be scary. Although it is perceived to be scary, it actually is not.
   - The fluffy blue monster with a smiling face (happy monster) is the real identity of statistics: fun, playful, and engaging
 
 - I wanted the user to see the "real" face of the statistics monster by somehow changing the look of the anxious monster to a happy monster. With the limitations of the html and css, I did this using hoover style. In large screens, hoovering over the anxious monster reveals the real face of it: the happy monster.
@@ -143,7 +142,7 @@ Image on site as it appears
 Image response to hovering
 ![Happy monster on landing page](./media_readme/Real_Face_2.png)
 
-- Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located. 
+- Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located.
 
 - Through the happy monster, statistics is depected as fun, engaging, playful, and also helping the user to get stronger (i.e. more employable). Each of these characteristics are linked to a page:
   - _fun_ links to "fun facts" page
@@ -169,7 +168,7 @@ Image response to hovering
 
 - To encourage users to come back to the page, brief information is provided with text "stats game under construction" rather than a general message (which may become very discouraging).
 
-- It will be an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress. 
+- It will be an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress.
 
 - It will achieve the above objective by creation of a simple interactive statistics game.
 
@@ -219,7 +218,7 @@ For HTML files, I used the [W3C HTML Validator](https://validator.w3.org/#valida
 #### Subscribe page
 
 ![W3C Validator report for subscribe page](./media_readme/W3C_Validator_subscribe.png)
-    
+
 #### CSS code
   
 ![W3C Validator report for the css file](./media_readme/W3C_Validator_css.png)
@@ -267,7 +266,7 @@ The initial accessibility score was 86%. I followed the steps below to increase 
 
 I checked the responsiveness and overall look of the pages in multiple gadgets, using different operating systems manually. I also used Google Developer Tools intensively.
 
-#### Navigation Bar 
+#### Navigation Bar
 
 | Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
 | -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
@@ -387,7 +386,7 @@ Users may create a branch from this repository by navigating to "Branches" and c
 
 - I used [GitHub Guides](https://github.com/git-guides) to read about GitHub terminal commands I needed during my work on the project:
   
-- I used the following pages to help me understand the source of issues that I encountered and how to fix them: 
+- I used the following pages to help me understand the source of issues that I encountered and how to fix them:
   - [GitHub Guides](https://github.com/git-guides)
   - [Stack overflow](https://stackoverflow.com)
 
