@@ -389,6 +389,10 @@ input[type=email] {
   display: block;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 #feedback {
   padding: 10px;
   margin-bottom: 20px;
@@ -403,7 +407,6 @@ input[type=email] {
   display: flex;
   flex-direction: row;
   gap: 30px;
-
 }
 
 input[type=submit] {
