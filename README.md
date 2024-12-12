@@ -29,6 +29,12 @@ The inspiration for this page came from the book "Lady Testing Tea: How Statisti
 
 ![Website mockup image for different screen sizes](./media_readme/Response_2.png)
 
+## Site's Location
+
+- Fun Fact Stats live link: <https://hisarciklilar.github.io/fun_fact_stats/index.html>
+
+- fun_fact_stats GitHub Repository: <https://github.com/hisarciklilar/fun_fact_stats> 
+
 ## User Experience
 
 The target audience for this website are UG students, although anybody who is interested with statistics is welcomed!
