@@ -342,7 +342,7 @@ The site was deployed to GitHub pages. The steps followed to deploy are as follo
 
 - In the GitHub repository, go to the Settings tab.
   
-- Under "Code and automation" in the left-hand-side pane, select "Pages" and choose "main" as the default branch.
+- Under "Code and automation" on the left-hand-side pane, select "Pages" and choose "main" as the default branch.
 
 - Once the main branch is selected, the deployment will take place automatically. This may take a few minutes.
 
