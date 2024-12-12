@@ -25,9 +25,9 @@ This website aims to show the learners and users of statistical methods the fun 
   
 The inspiration for this page came from the book "Lady Testing Tea: How Statistics Revolutionized Science in the Twentieth Century" by David Salsburg. Hence, the first fun fact on the site is Lady Testing Tea. The aim is to add new stories, new fun facts regularly to keep the users of the website engaged.
 
-![Website mockup for different screen sizes](./media_readme/Response_1.png)
+![Website mockup image for different screen sizes](./media_readme/Response_1.png)
 
-![Website mockup for different screen sizes](./media_readme/Response_2.png)
+![Website mockup image for different screen sizes](./media_readme/Response_2.png)
 
 ## User Experience
 
@@ -60,7 +60,7 @@ Colors with the following hex values are used in this website:
 - #ffd700 (named color: gold)
 - #2e8b57 (named color: seagreen)
 - #3a3a3a;
-- #808080 (name color: gray)
+- #808080 (named color: gray)
 
 The tone for the seagreen had to be changed in some parts to a slightly darker version to ensure sufficient contrast.
 
@@ -96,7 +96,7 @@ Below, I provide screenshots of some alternatives considered.
 
 ![Website heading with font Rock Salt](./media_readme/FFS_RockSalt.png)
 
-The last screenshot above is the font chosen for the header.
+The last example above is the font chosen for the header.
 
 ### Wireframes
 
@@ -144,7 +144,7 @@ Image response to hovering
 
 - Inspired by the Code Institute's love-running walk through example, these images are included as background images. Because each of these images also represent a meaning, an alt text for each was added through using hidden images in the div they are located.
 
-- Through the happy monster, statistics is depected as fun, engaging, playful, and also helping the user to get stronger (i.e. more employable). Each of these characteristics are linked to a page:
+- Through the happy monster, statistics is depicted as fun, engaging, playful, and also helping the user to get stronger (i.e. more employable). Each of these characteristics are linked to a page:
   - _fun_ links to "fun facts" page
   - _engaging_ links to "subscribe" page (note: this is not a perfect match, and will need to be revisited in the future)
   - _playful_ links to "fun stats" page
@@ -162,6 +162,12 @@ Image response to hovering
 
 - Below the path, there is a set of keywords that the fun fact story covers. This will help the users to relate the story with the statistical concepts. These can later be used to introduce a search feature on the site.
 
+- Mockup images of this page are provided below
+
+![Mockup image for the fun facts page](./media_readme/Response_3.png)
+
+![Mockup image for the fun facts page](./media_readme/Response_4.png)
+
 #### Fun stats page
 
 - There is a placeholder for this page on the website but currently the only content is an under-construction-type image.
@@ -171,6 +177,16 @@ Image response to hovering
 - It will be an interactive page which aids students in their learning by starting from the basic calculations and moving on to more complicated ones as students progress.
 
 - It will achieve the above objective by creation of a simple interactive statistics game.
+
+#### Subscribe page
+
+- Subscribe page asks for the details of the users: first name, last name, email address, age group, user's feedback/suggestions, and user consent to be informed about monthly meetings.
+
+- The page has "submit" and "reset" buttons.
+
+- A mockup images of this page is provided below
+
+![Mockup image for the fun facts page](./media_readme/Response_5.png)
 
 #### Motivational poster page
 
@@ -229,12 +245,16 @@ For HTML files, I used the [W3C HTML Validator](https://validator.w3.org/#valida
 
 #### Landing Page
 
-My index page had an accessibility score of 85%. I followed the steps below to increase it to 100%:
+The landing page (index.html) initially had an accessibility score of 85%. I followed the steps below to increase it to 100%:
 
 - I changed the seagreen color that I used for linked text under the happy monster image into #20643F, which provides a better contrast with the white background.
+
 - I increased the font size for the above-mentioned links.
+
 - I changed the color of the text at the very bottom of the footer to a darker color (#154229).
+
 - I added aria-label link text to the links below the happy monster mentioned above
+
 - I added aria-label link text to the links in the navigation bar items.
 
     ![Lighthouse report for the landing page](./media_readme/Accessibility_index.png)
@@ -258,6 +278,7 @@ The initial accessibility score was 90%. I followed the steps below to increase 
 The initial accessibility score was 86%. I followed the steps below to increase it to 91%:
 
 - To obtain sufficient contrast, I changed seagreen color on the submit and reset buttons to #21643E
+
 - I added aria-label and aria-labelby texts to form elements, but I there are still a couple of labels to be added. I will need to read about how to do those before I could make a change.
 
   ![Lighthouse report for the subscribe page](./media_readme/Accessibility_subscribe.png)
@@ -313,10 +334,14 @@ I checked the responsiveness and overall look of the pages in multiple gadgets, 
 
 The site was deployed to GitHub pages. The steps followed to deploy are as follows:
 
-- In the GitHub repository, go to the Settings tab
-- Under "Code and automation" in the left-hand-side pane, select "Pages" and choose "main" as the default branch
+- In the GitHub repository, go to the Settings tab.
+  
+- Under "Code and automation" in the left-hand-side pane, select "Pages" and choose "main" as the default branch.
+
 - Once the main branch is selected, the deployment will take place automatically. This may take a few minutes.
+
 - At the top of the refreshed page, one can find the link to the deployed page.
+
 - The live link for this project can be found here:
    <https://hisarciklilar.github.io/fun_fact_stats/>
 
@@ -326,7 +351,7 @@ The screenshots below show the stages described above:
 
 ## Cloning a Repository
 
-Users may clone this repository by navigating to "Code" and copying the clone link. This link then can be used in Gitpod or a local code editor.  A screenshot of the links are provided below:
+Users may clone this repository by navigating to "Code" and copying the clone link. This link then can be used in Gitpod or a local code editor.  A screenshot of the steps is provided below:
 
 ![Cloning a repository on GitHub](./media_readme/Clone_repository.png)
 
@@ -334,13 +359,13 @@ Users may clone this repository by navigating to "Code" and copying the clone li
 
 ## Creating a Fork
 
-Users may fork this repository by navigating to "Fork" and selecting "Create a new fork". One cannot fork from their repository. Hence, below, a screenshot of how this could be done are provided using a repository created by a different user:
+Users may fork this repository by navigating to "Fork" and selecting "Create a new fork". One cannot fork from their own repository. Hence, below, a screenshot of how this could be done is provided using a repository created by a different user:
 
 ![Creating a fork on GitHub](./media_readme/Create_fork.png)
 
 ## Creating a Branch
 
-Users may create a branch from this repository by navigating to "Branches" and clicking on the "New Branch" button. In the opening window, they may give an informative name for the new branch created and click on the "Create new branch" button. The page will refresh, showing the new branch crated.
+Users may create a branch from this repository by navigating to "Branches" and clicking on the "New Branch" button. In the opening window, they may give an informative name for the new branch created and click on the "Create new branch" button. The page will refresh, showing the new branch created.
 
 ![Creating a branch on GitHub - step 1](./media_readme/Create_branch_1.png)
 
